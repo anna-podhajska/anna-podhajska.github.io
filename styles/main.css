@@ -1,0 +1,30 @@
+
+h3 {
+  color: gray;
+  font-size: 18px;
+}
+
+h4 {
+  color: orange;
+}
+
+#pfront {
+  font-size: : 11px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+  font-family: sans-serif;
+
+}
+
+div {
+  margin: 0 auto;
+  background: gray;
+  padding: 20px;
+  color: white;
+  /*text-align: center;*/
+  height: 500px;
+}
