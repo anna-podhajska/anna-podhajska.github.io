@@ -1,36 +1,51 @@
 
 h3 {
   color: white;
-  font-size: 1em;
+  /*font-size: 1.2em;*/
   text-align: center;
 }
 
 h4 {
-  color: orange;
+  color: #FFA500;
 }
 
-
+p {
+  font-size: 1m;
+  color: white;
+}
 
 a {
   text-decoration: none;
-  color: orange;
+  color: #FFA500;
   font-family: sans-serif;
+  font-weight: lighter;
   text-align: center;
 }
 
+.homelink {
+  font-size: 0.6em;
+}
+
+img {
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
 .divfront {
-  margin: 0 auto;
-  background: gray;
+  background: #808080;
   padding: 20px;
-  color: white;
   text-align: center;
   height: 500px;
+  font-size: 1em;
+
 }
 
 div {
   margin: 0 auto;
-  background: gray;
+  background: #808080;
   padding: 20px;
-  color: white;
   height: 500px;
 }
