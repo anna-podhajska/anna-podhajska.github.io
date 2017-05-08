@@ -1,52 +1,57 @@
 h3 {
-  color: white;
+  color: #5D535E;
   /*font-size: 1.2em;*/
-  text-align: center;
 }
 
 h4 {
-  color: #FFA500;
+  color: #5D535E;
 }
 
 p {
   font-size: 1m;
-  color: white;
+  color: #5D535E;
 }
 
 a {
   text-decoration: none;
-  color: #FFA500;
+  /*color: #EC9624;*/
+  /*color: #DFE166;*/
+  color: #5D535E;
   font-family: sans-serif;
   font-weight: lighter;
-  text-align: center;
+  /*text-align: center;*/
   font-size: 1em;
 }
 
 .homelink {
   font-size: 0.6em;
+  color: #DFE166;
+}
+
+div .allfrontdivs {
+  margin: 0;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+div .title {
+  display: inline-block;
+}
+
+div .image {
+  display: block;
+}
+
+div .links {
+  display: inline-block;
 }
 
 img {
-  width: 4em;
-  height: 3em;
-  display: block;
+  width: 3em;
+  height: 2em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.divfront {
-  background: #808080;
-  padding: 20px;
-  text-align: center;
-  height: 500px;
-  font-size: 1em;
-}
-
-div {
-  margin: 0 auto;
-  background: #808080;
-  padding: 20px;
-  height: 500px;
 }
