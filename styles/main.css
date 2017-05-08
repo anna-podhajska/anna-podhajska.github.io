@@ -1,14 +1,21 @@
-h3 {
+h3, h4 {
   color: #5D535E;
-  /*font-size: 1.2em;*/
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 1.8em;
+  line-height: 1.250em;
+  letter-spacing: -1px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  display: inline-block;
 }
 
 h4 {
-  color: #5D535E;
+  font-size: 1.5em;
 }
 
 p {
-  font-size: 1m;
+  font-size: 1em;
   color: #5D535E;
 }
 
@@ -17,41 +24,28 @@ a {
   /*color: #EC9624;*/
   /*color: #DFE166;*/
   color: #5D535E;
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: lighter;
-  /*text-align: center;*/
   font-size: 1em;
 }
 
 .homelink {
-  font-size: 0.6em;
+  font-size: 0.8em;
   color: #DFE166;
 }
 
-div .allfrontdivs {
-  margin: 0;
-  display: block;
-  align-items: center;
-  text-align: center;
-}
-
-div .title {
-  display: inline-block;
-}
-
-div .image {
-  display: block;
-}
-
-div .links {
-  display: inline-block;
-}
-
 img {
-  width: 3em;
-  height: 2em;
+  width: 4em;
+  height: 3em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0
 }
