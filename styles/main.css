@@ -30,13 +30,6 @@ body {
   background: gainsboro;
 }
 
-/*.footer img {
-  height: 1em;
-  padding: 0;
-  margin: 0;
-  border: 3px solid red;
-}*/
-
 .footer a {
   margin: 0 10px 5px 30px;
   padding: 0;
@@ -44,6 +37,23 @@ body {
   color: #5D535E;
 }
 
+/*.footer img {
+  height: 1em;
+  padding: 0;
+  margin: 0;
+  border: 3px solid red;
+}*/
+
+/*below navi only on subpages*/
+.navreflectionblogs a {
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-size: 0.8em;
+  color: #DFE166;
+}
+
+.navreflectionblogs {
+  border-top: 1px solid #5D535E;
+}
 
 .allfrontblogs {
   display: inline-block;
@@ -79,53 +89,49 @@ body {
   color: #5D535E;
 }
 
+
 .title {
-  margin-bottom: 30px;
-  border-bottom: 2px solid #5D535E;
-  padding-bottom: 5px;
-}
-.title > h3 {
-  /*Robo Condensed font style start*/
+  margin-bottom: 20px;
+  border-bottom: 1px solid #5D535E;
+  padding-bottom: 30px;
   color: #5D535E;
-  font-size: 1.8em;
+  font-size: 0.8em;
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
-  text-transform: capitalize;
-  line-height: normal;
-  padding-bottom: 0px;
-  font-weight: 700;
-  display: inline-block;
-  /*font style end*/
+  padding-bottom: 10px;
+}
+.typewriter {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #5D535E;
+  padding-bottom: 30px;
+  color: #5D535E;
+  font-size: 0.8em;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
 
-
-  /*below navi only on subpages*/
-  .navreflectionblogs a {
-    font-family: 'Roboto Condensed', Helvetica, sans-serif;
-    font-size: 0.8em;
-    color: #DFE166;
-  }
-
-  .navreflectionblogs {
-    border-top: 1px solid #5D535E;
-  }
-
-
-
-  /*Typing effest stars here:*/
+  /*typewriter effect starts here:*/
+  .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation:
-    typing 4.5s steps(60, end),
+    typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
-  }
+}
 
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
 /* my typing effect source:  https://css-tricks.com/snippets/css/typewriter-effect/*/
 }
 
