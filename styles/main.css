@@ -1,5 +1,5 @@
 body {
-  padding: 10px 30px 10px 30px;
+  padding: 3px 15px;
   background-color: #ebeced;
 }
 
@@ -13,11 +13,15 @@ h1 {
   font-size: 2em;
 }
 
+h4 {
+  color: #444c54;
+  font-size: 1.1em;
+}
+
 a {
   text-decoration: none;
-  color: #EC9624;
+  color: #5D535E;
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
-  font-weight: lighter;
   font-size: 0.9em;
 }
 
@@ -61,7 +65,7 @@ img {
 /*lists with links to the articles:*/
 .frontlist {
   margin: 0;
-  padding:0 0 30px 20px;
+  padding: 0 0 0 30px;
 }
 
 .frontlist ul {
@@ -112,12 +116,11 @@ img {
 }
 
 .navreflectionblogs a {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  color: #ce5a57;
   font-size: 0.7em;
-  color: ##ce5a57;
-  display: inline;
   margin-right: 30px;
 }
+
 
 .title {
   margin-bottom: 0px;
@@ -131,7 +134,7 @@ img {
 
 .typewriter {
   margin-bottom: 20px;
-  border-bottom: 1px solid #444c54;
+  border-bottom: 2px solid #444c54;
   padding-bottom: 30px;
   color: #444c54;
   font-size: 0.8em;
@@ -215,11 +218,13 @@ img {
 }
 
 
-/*#EC9624
+/*
+#EC9624
 #e1b16a
 #DFE166
 #444c54
 #78a5a3
 #ce5a57
 #5D535E
-#ebeced*/
+#ebeced
+*/
