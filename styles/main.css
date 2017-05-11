@@ -31,6 +31,7 @@ img {
   height: 100px;
   padding: 0;
   margin: 0;
+
 }
 
 /*FLEX:*/
@@ -49,6 +50,13 @@ img {
 .flex-container > .raw-item {
 	width: 5rem;
 }
+
+.reflectionblog, .technicalblog {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
 
 /*lists with links to the articles:*/
 .frontlist {
@@ -123,7 +131,7 @@ img {
 
 .typewriter {
   margin-bottom: 20px;
-  border-bottom: 2px solid #444c54;
+  border-bottom: 1px solid #444c54;
   padding-bottom: 30px;
   color: #444c54;
   font-size: 0.8em;
