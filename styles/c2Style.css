@@ -1,0 +1,157 @@
+body {
+  padding: 3px 15px;
+  background-color: #ebeced;
+}
+
+* {
+  font-size: 1em;
+  color: #444c54;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h4 {
+  color: #444c54;
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+  color: #5D535E;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+
+/*FLEX:*/
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+
+}
+
+.flex-container > .flex-item {
+	-webkit-flex: auto;
+	flex: auto;
+}
+
+.flex-container > .raw-item {
+	width: 5rem;
+}
+
+.reflectionblog, .technicalblog {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+
+.frontlist ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+.article ul {
+  list-style:square;
+  display: block;
+  padding: 3px;
+  margin: 15px;
+  color: #444c54;
+}
+
+.footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:8%;
+  width:100%;
+  background: #444c54;
+  text-align: right;
+}
+
+.footer a {
+  margin: 5px 10px 5px 30px;
+  padding: 0;
+  font-size: 0.8em;
+  color: white;
+}
+
+
+
+.title {
+  margin-bottom: 0px;
+  border-bottom: 1px solid #444c54;
+  padding-bottom: 20px;
+  color: #444c54;
+  font-size: 0.8em;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/*
+#EC9624
+#e1b16a
+#DFE166
+#444c54
+#78a5a3
+#ce5a57
+#5D535E
+#ebeced
+*/
