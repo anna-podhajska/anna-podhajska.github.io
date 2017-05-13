@@ -1,21 +1,29 @@
-body {
-  padding: 3px 15px;
-  background-color: #ebeced;
+* {
+    color: #444c54;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
 }
 
 * {
-  font-size: 1em;
-  color: #444c54;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-h1 {
-  font-size: 2em;
+
+body {
+  background-color: #ebeced;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-h4 {
-  color: #444c54;
-  font-size: 1.1em;
+h2 {
+  font: 1em;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -23,6 +31,66 @@ a {
   color: #5D535E;
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-size: 0.9em;
+}
+
+.smallnav a {
+  color: #ce5a57;
+  margin-right: 5%
+}
+
+.allcontents {
+  background-color: white;
+  padding: 5px;
+}
+
+#front {
+}
+
+.post {
+  padding: 0;
+}
+
+
+.circle {
+  width: 80px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.blue {
+  background-color: #78a5a3;
+}
+
+.orange{
+  background-color: #EC9624;
+}
+
+.red {
+  background-color: #ce5a57;
+}
+
+.green {
+  background-color: #DFE166;
+}
+
+.gray {
+  background-color: #444c54;
+}
+
+.empty {
+  height: 300px;
+  width: 100%;
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
 }
 
 
@@ -44,26 +112,12 @@ a {
 	width: 5rem;
 }
 
-.reflectionblog, .technicalblog {
+/*.reflectionblog, .technicalblog {
   padding-bottom: 20px;
   border-bottom: 1px solid gray;
   border-right: 1px solid gray;
-}
+}*/
 
-
-.frontlist ul {
-  padding: 0;
-  margin: 0;
-}
-
-
-.article ul {
-  list-style:square;
-  display: block;
-  padding: 3px;
-  margin: 15px;
-  color: #444c54;
-}
 
 .footer {
   position:fixed;
@@ -81,7 +135,6 @@ a {
   font-size: 0.8em;
   color: white;
 }
-
 
 
 .title {
