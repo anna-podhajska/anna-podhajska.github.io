@@ -1,0 +1,230 @@
+body {
+  padding: 3px 15px;
+  background-color: #ebeced;
+}
+
+* {
+  font-size: 1em;
+  color: #444c54;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h4 {
+  color: #444c54;
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+  color: #5D535E;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+
+}
+
+/*FLEX:*/
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.flex-container > .flex-item {
+	-webkit-flex: auto;
+	flex: auto;
+}
+
+.flex-container > .raw-item {
+	width: 5rem;
+}
+
+.reflectionblog, .technicalblog {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+
+/*lists with links to the articles:*/
+.frontlist {
+  margin: 0;
+  padding: 0 0 0 30px;
+}
+
+.frontlist ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+.article ul {
+  list-style:square;
+  display: block;
+  padding: 3px;
+  margin: 15px;
+  color: #444c54;
+}
+
+.footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:8%;
+  width:100%;
+  background: #444c54;
+  text-align: right;
+}
+
+.footer a {
+  margin: 5px 10px 5px 30px;
+  padding: 0;
+  font-size: 0.8em;
+  color: white;
+}
+
+/*paragraph inside blog t2 p2 showing css*/
+.parShowCss {
+  margin: 0px 0px 0px 20px;
+  padding: 3;
+  border: none;
+  background-color: #DFE166;
+  width: 110px
+}
+
+/* below 2 navi only on subpages*/
+.navreflectionblogs {
+  border-bottom: 1px solid #444c54;
+  padding: 0 auto 30px auto;
+  margin-top: 0px;
+}
+
+.navreflectionblogs a {
+  color: #ce5a57;
+  font-size: 0.7em;
+  margin-right: 30px;
+}
+
+
+.title {
+  margin-bottom: 0px;
+  border-bottom: 1px solid #444c54;
+  padding-bottom: 20px;
+  color: #444c54;
+  font-size: 0.8em;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+.typewriter {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #444c54;
+  padding-bottom: 30px;
+  color: #444c54;
+  font-size: 0.8em;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+  /*typewriter effect starts here:*/
+  .typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+/* my typing effect source:  https://css-tricks.com/snippets/css/typewriter-effect/*/
+}
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/*
+#EC9624
+#e1b16a
+#DFE166
+#444c54
+#78a5a3
+#ce5a57
+#5D535E
+#ebeced
+*/
