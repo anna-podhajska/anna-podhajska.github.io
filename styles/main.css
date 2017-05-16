@@ -9,3 +9,13 @@ body {
   border-radius: 0.5rem;
   box-shadow: 0.5rem 0.5rem 0 0 #aaa;
 }
+
+.header {
+  background-color: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
