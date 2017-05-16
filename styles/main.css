@@ -14,8 +14,8 @@ header {
   padding: 0;
   margin: 0;
   width: 100%;
-  border: 1px solid black;
-}
+  background-color: black;
+  }
 
 .indexBlogLink {
   text-decoration: none;
