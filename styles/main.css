@@ -10,12 +10,18 @@ body {
   box-shadow: 0.5rem 0.5rem 0 0 #aaa;
 }
 
-.header {
-  background-color: none;
+header {
   padding: 0;
   margin: 0;
+  width: 100%;
+  border: 1px solid black;
 }
 
-a {
+.indexBlogLink {
+  text-decoration: none;
+  color: black;
+}
+
+footer a {
   text-decoration: none;
 }
