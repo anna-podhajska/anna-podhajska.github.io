@@ -11,6 +11,11 @@ body {
   box-shadow: 0.5rem 0.5rem 0 0 #aaa;
 }
 
+.Hellboy {
+padding: 0;
+}
+
+
 .indexBlogLink {
   text-decoration: none;
   color: black;
@@ -36,7 +41,7 @@ header a {
   float: none;
   color: white;
   font-size: 0.8em;
-  padding-right: 2em;
+  padding-right: 4em;
 }
 
 footer {
