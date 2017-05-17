@@ -1,6 +1,7 @@
 body {
-  padding-top: 2rem;
+  padding: 0;
 }
+
 
 .highlight {
   font-style: italic;
@@ -10,18 +11,55 @@ body {
   box-shadow: 0.5rem 0.5rem 0 0 #aaa;
 }
 
-header {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background-color: black;
-  }
-
 .indexBlogLink {
   text-decoration: none;
   color: black;
 }
 
+.backTop {
+  align-items: center;
+}
+
+.backTop a {
+  font-size: 1rem;
+  display: inline;
+}
+
+header {
+  margin-top: 0;
+  margin-bottom: 40px;
+  background-color: black;
+}
+
+header a {
+  text-decoration: none;
+  float: none;
+  color: white;
+  font-size: 0.8em;
+  padding-right: 2em;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: black;
+}
+
 footer a {
   text-decoration: none;
+  float: none;
+  color: white;
+  font-size: 0.8em;
+}
+
+.headingIcon img {
+  height: 50px;
+}
+
+.footerIcon img  {
+  height: 40px;
+  }
+
+
+.empty {
+  height: 3rem;;
 }
