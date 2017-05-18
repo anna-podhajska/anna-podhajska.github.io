@@ -1,51 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Udacity </title>
+  <title></title>
+  <title> ania's blog </title>
+
   <meta charset="UTF-8">
-  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type"text/css" href="../styles/main.css">
+
+  <link rel="shortcut icon" href="favicon.ico" type="favicon.ico">
+  <link rel="icon" href="favicon.ico" type="favicon.ico">
+
+  <link rel="stylesheet" href="../css/normalize.css">
 </head>
+<body>
 
-  <body>
-    <div class="allcontents">
-      <div class="subtitle col-12 row">
-        <h2>web page structure</h2>
-      </div>
+  <header class="blogHeader">
+    <div class="container row">
+      <ul>
+        <li>
+          <a href="index.html">work</a>
+          <a href="index.html">about</a>
+          <a href="index.html"> blog </a>
+        </li>
+      </ul>
 
-      <nav class="smallnav col-12">
-        <a href="../index.html"> home </a>
-        <a href="t2-html-css-dom-p1.html"> previous post </a>
-      </nav>
-
-      <div class="article col-12">
-        <div class="thought col-12">
-          <p>What is grid based design??</p>
-          <p>It is an approach to designing pages based on dividing the page layout into a grid. The grid usually consists of 12 columns and various number of rows. Objects in html document receive a class that relates to their size. The width is related to the number of columns that particular element will take. For example an image wrapped in &#60div class="col-4"&#62 will later receive the following CSS styling: <blockquote> .col-4 { <br /> width: 33.33%; <br /> } <br />  </blockquote> 33.33% is 4/12 of the page's width.</p> 
-        </div>
-
-        <div class="thought col-12">
-          <p>Whats all the hype about responsive webpages?</p>
-          <p>Basically, it is related to modern way of using the Internet and viewing webpages on devices that have various screen resolution. Responsive webpages adjust to different screen sizes, screen orientation and platforms. The approach consists of using flexible grids and CSS media queries. For example, using media queries it is possible to "turn off" some images on the page if the screen resolution is to small to view them properly. </p>
-        </div>
-
-        <div class="thought col-12">
-          <p>What is semantic structure?</p>
-          <p>Semantic structure of html has little interest in design. It consists of semantic elements that are easy to read both by people and browsers. The semantic elements are for example headings &#60h1&#62 to &#60h5&#62, images &#60img&#62, tables &#60table&#62. Pages should be structured in a hierarchical manner, so for example headings &#60h1&#62 are more important than &#60h5&#62. <br> In those words, semantic structure is a meaningful structure of a html document which describes and identifies relations between its elements. </p>
-
-        <div class="thought col-12">
-            <li> Any other points you found interesting and want to reflect on.</li>
-            <p> I am fascinated by the ways we can develop web pages in order to achieve amazing responsive layouts and to improve user experience. </p>
-        </div>
-      </div>
-      <div class="empty col-12"
-      </div>
-
-
-      <div class="footer">
-        <a href="mailto:example@email.com?subject=Reaching out Ania&body=How are you.">Email</a>
-        <a href="https://www.instagram.com/ania_podh/"> Instagram </a>
-        <a href="index.com"> Facebook </a>
-      </div>
     </div>
-  </body>
+  </header>
+
+</head>
+<body>
+  <div class="table-container">
+    <div class="table-block footer-push">
+
+      <!-- Primary Page Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <div class="row">
+          <div class="twelve column Hulk">
+
+            <section>
+              <p><em>What is grid based design??</em></p>
+              <p>It is an approach to designing pages based on dividing the page layout into a grid. The grid usually consists of 12 columns and various number of rows. Objects in html document receive a class that relates to their size. The width is related to the number of columns that particular element will take. For example an image wrapped in &#60div class="col-4"&#62 will later receive the following CSS styling: <blockquote> <code> .col-4 { <br /> width: 33.33%; <br /> } <br />  </code> </blockquote> 33.33% is 4/12 of the page's width.</p>
+            </section>
+
+            <section>
+              <p><em>Whats all the hype about responsive webpages?</em></p>
+              <p>Basically, it is related to modern way of using the Internet and viewing webpages on devices that have various screen resolution. Responsive webpages adjust to different screen sizes, screen orientation and platforms. The approach consists of using flexible grids and CSS media queries. For example, using media queries it is possible to "turn off" some images on the page if the screen resolution is to small to view them properly. </p>
+            </section>
+
+            <section>
+              <p><em>What is semantic structure?</em></p>
+              <p>Semantic structure of html has little interest in design. It consists of semantic elements that are easy to read both by people and browsers. The semantic elements are for example headings &#60h1&#62 to &#60h5&#62, images &#60img&#62, tables &#60table&#62. Pages should be structured in a hierarchical manner, so for example headings &#60h1&#62 are more important than &#60h5&#62. <br> In those words, semantic structure is a meaningful structure of a html document which describes and identifies relations between its elements. </p>
+            </section>
+
+            <section>
+                <p><em>Any other points you found interesting and want to reflect on.</em><p>
+                <p> I am fascinated by the ways we can develop web pages in order to achieve amazing responsive layouts and to improve user experience. </p>
+            </section>
+
+          </div>
+        </div>
+      </div>  <!-- end primary div.container -->
+    </div> <!-- end primary div.table-block -->
+
+
+    <div class="table-block">
+      <!-- Page Footer Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <footer class="blogFooter" class="twelve columns">
+
+          <ul>
+            <li><a id="footerParrotLink" href="../index.html"><img src="../images/Parrot_Icon.png"></li>
+            <li>
+              <a href="https://www.facebook.com">facebook</a>
+              <a href="https://www.instagram.com/ania_podh/">instagram</a> <a href="tel:333 444 333"> call me</a>
+            </li>
+
+
+        </footer>
+      </div> <!-- end footer div.container -->
+    </div>  <!-- end footer div.table-block -->
+  </div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+</body>
 </html>

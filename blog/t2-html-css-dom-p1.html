@@ -1,54 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> HTML CSS DOM </title>
+  <title></title>
+  <title> ania's blog </title>
+
   <meta charset="UTF-8">
-  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type"text/css" href="../styles/main.css">
+
+  <link rel="shortcut icon" href="favicon.ico" type="favicon.ico">
+  <link rel="icon" href="favicon.ico" type="favicon.ico">
+
+  <link rel="stylesheet" href="../css/normalize.css">
 </head>
+<body>
 
-  <body>
-    <div class="allcontents">
-
-      <div class="subtitle col-12 row">
-        <h2>HTML CSS DOM</h2>
-      </div>
-
-      <nav class="smallnav col-12">
-        <a href="../index.html"> home </a>
-        <a href="t2-html-css-dom-p2.html"> next post </a>
-      </nav>
-
-      <div class="article col-12">
-        <div class="thought col-12">
-          <p>Can you think of an analogy to describe HTML, CSS and the DOM?</p>
-          <p> I am thinking about HTML elements as lego bricks or decoration elements in a house which are beautified by CSS and arranged in the browser thanks to the plan provided by DOM. </p>
-        </div>
-
-        <div class="thought col-12">
-          <p>How would you describe it to your non-technical friend?</p>
-          <p> HTML elements are Lego bricks, CSS defines the bricks' colors and shapes, the browser uses lego elements to build contents on the page and knows how to do that thanks to DOM, which is kinda manual for the browser how to build a lego spaceship. </p>
-        </div>
-
-        <div class="thought col-12">
-          <p>What is meant by boxifying design?</p>
-          <p>Boxifying is an approach to develop a website. Chopping up website elements to boxes and identifying relations between them. </p>
-        </div>
-
-        <div class="thought col-12">
-          <p>What is the box model?</p>
-          <p>Box model refers to seeing website elements as boxes. We may give those boxes names, for examle by creating divs and adding classes to them in HTML document. Later, we can style, position and create relations between the boxes. </p>
-        </div>
-        <div class="empty col-12">
-        </div>
-
-      </div>
-
-      <div class="footer">
-        <a href="mailto:example@email.com?subject=Reaching out Ania&body=How are you.">Email</a>
-        <a href="https://www.instagram.com/ania_podh/"> Instagram </a>
-        <a href="index.com"> Facebook </a>
-      </div>
+  <header class="blogHeader">
+    <div class="container row">
+      <ul>
+        <li>
+          <a href="index.html">work</a>
+          <a href="index.html">about</a>
+          <a href="index.html"> blog </a>
+        </li>
+      </ul>
 
     </div>
-  </body>
+  </header>
+
+</head>
+<body>
+  <div class="table-container">
+    <div class="table-block footer-push">
+
+      <!-- Primary Page Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <div class="row">
+          <section>
+            <p><em>Can you think of an analogy to describe HTML, CSS and the DOM?</em></p>
+            <p> I am thinking about HTML elements as lego bricks or decoration elements in a house which are beautified by CSS and arranged in the browser thanks to the plan provided by DOM. </p>
+          </section>
+
+          <section>
+            <p><em>How would you describe it to your non-technical friend?</em></p>
+            <p> HTML elements are Lego bricks, CSS defines the bricks' colors and shapes, the browser uses lego elements to build contents on the page and knows how to do that thanks to DOM, which is kinda manual for the browser how to build a lego spaceship. </p>
+          </section>
+
+          <section>
+            <p><em>What is meant by boxifying design?</em></p>
+            <p>Boxifying is an approach to develop a website. Chopping up website elements to boxes and identifying relations between them. </p>
+          </section>
+
+          <section>
+            <p><em>What is the box model?</em></p>
+            <p>Box model refers to seeing website elements as boxes. We may give those boxes names, for examle by creating divs and adding classes to them in HTML document. Later, we can style, position and create relations between the boxes. </p>
+          </section>
+          </div>
+        </div>
+      </div>  <!-- end primary div.container -->
+    </div> <!-- end primary div.table-block -->
+
+
+    <div class="table-block">
+      <!-- Page Footer Layout
+           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container">
+        <footer class="blogFooter" class="twelve columns">
+
+          <ul>
+            <li><a id="footerParrotLink" href="../index.html"><img src="../images/Parrot_Icon.png"></li>
+            <li>
+              <a href="https://www.facebook.com">facebook</a>
+              <a href="https://www.instagram.com/ania_podh/">instagram</a> <a href="tel:333 444 333"> call me</a>
+            </li>
+
+
+        </footer>
+      </div> <!-- end footer div.container -->
+    </div>  <!-- end footer div.table-block -->
+  </div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+</body>
 </html>
