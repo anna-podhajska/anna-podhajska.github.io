@@ -31,9 +31,18 @@ padding: 0;
 }
 
 header {
-  margin-top: 0;
-  margin-bottom: 40px;
   background-color: black;
+  margin-bottom: 10%;
+}
+
+
+header ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+header li {
+  margin-bottom: 0;
 }
 
 header a {
@@ -44,10 +53,17 @@ header a {
   padding-right: 4em;
 }
 
+.headerIcon img {
+  height: 40px;
+  margin-top: 0.5rem;
+}
+
+
 footer {
   margin-top: 40px;
   background-color: black;
 }
+
 
 footer a {
   text-decoration: none;
@@ -56,15 +72,29 @@ footer a {
   font-size: 0.8em;
 }
 
-.headerIcon img {
-  height: 40px;
-}
+
+
+
 
 .footerIcon img  {
   height: 30px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   }
 
-
 .empty {
-  height: 3rem;;
+  height: 3rem;
 }
+
+
+
+/*UTILITY CLASSES - ALREADY INCLUDED IN SKELETON?*/
+/*.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }*/
+
+/*.u-pull-right {
+  float: right; }
+
+.u-pull-left {
+  float: left; }*/
