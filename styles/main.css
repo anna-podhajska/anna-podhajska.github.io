@@ -4,7 +4,7 @@ html, body {
 
 /* below CONVERTIBLE MENU learned from https://css-tricks.com/convert-menu-to-dropdown/*/
 
-nav select {
+nav .mobileIndex {
   display: none;
   background-color: black;
   color: white;
@@ -12,7 +12,7 @@ nav select {
 
 @media (max-width: 550px) {
   nav ul     { display: none; }
-  nav select { display: inline-block; }
+  nav .mobileIndex { display: inline-block; }
 }
 /*...... convertible menu end ....*/
 
