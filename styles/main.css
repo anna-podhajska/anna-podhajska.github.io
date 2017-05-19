@@ -2,6 +2,19 @@ html, body {
   height: 100%;
 }
 
+/* below CONVERTIBLE MENU learned from https://css-tricks.com/convert-menu-to-dropdown/*/
+
+nav select {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+/*...... convertible menu end ....*/
+
+
 .highlight {
   font-style: italic;
   padding: 2rem;

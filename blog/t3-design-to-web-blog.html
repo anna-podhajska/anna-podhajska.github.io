@@ -3,37 +3,49 @@
 <head>
   <title></title>
   <title> ania's blog </title>
-
-  <meta charset="UTF-8">
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
   <link rel="stylesheet" type"text/css" href="../styles/main.css">
+
 
   <link rel="shortcut icon" href="favicon.ico" type="favicon.ico">
   <link rel="icon" href="favicon.ico" type="favicon.ico">
 
-  <link rel="stylesheet" href="../css/normalize.css">
 </head>
 <body>
 
   <header class="blogHeader">
-    <div class="container row">
+    <!-- ..............MENU  ...............-->
+    <nav class="container row">
+
       <ul>
         <li>
-          <a href="index.html">home</a>
-          <a href="index.html">work</a>
-          <a href="index.html">about</a>
+          <a href="../blog/a-work.html" class="active">home</a>
+          <a href="../blog/a-work.html">work</a>
+          <a href="../blog/a-about.html">about</a>
+          <a href="../blog/a-index-all-blogs.html">blog</a>
+          <a href="../blog/a-contact-me.html">contact</a>
         </li>
       </ul>
 
-    </div>
+      <select>
+        <option value="" selected="selected">Select</option>
+
+        <option value="../blog/a-work.html">home</option>
+        <option value="../blog/a-work.html">work</option>
+        <option value="../blog/a-about.html">about</option>
+        <option value="../blog/a-index-all-blogs.html">blog</option>
+        <option value="../blog/a-contact-me.html">contact</option>
+      </select>
+
+    </nav>
+    <!-- ..............MENU  ...............-->
   </header>
 
-</head>
-<body>
+  
   <div class="table-container">
     <div class="table-block footer-push">
 
@@ -42,20 +54,50 @@
       <div class="container">
         <div class="row">
           <div class="twelve column Hulk">
-            <h4>TEMPLATE Lorem ipsum dolor</h4>
-              <ul>
-                <li> What a responsive site is, and why responsiveness is important.</li>
 
-                <li>What mobile first design is, and why it's important.</li>
+            <article>
 
-                <li>What frameworks are, and their pros and cons.</li>
 
-                <li>What a wireframe is and why we use it.</li>
+              <h5> What a responsive site is, and why responsiveness is important.</h5>
 
-            </p>
+                <p>It is a site that responds to user's behaviour and environment based on the screen size and resolution. Responsive web page will adjust the contents, size, position or appearance of elements to the device it is viewed on. Responsive sites use Media Queries, flexible grids, layouts and images.</p>
+
+              <h5>What mobile first design is, and why it's important.</h5>
+                <p>Mobile first design is an approach based on assumptiuon that most of the website wisitors will be viewing the page on a smaller devices. This approach is based on creating websites for mobile screen-size first, the web site is later adjusted to larger screen size if the screen size is larger. It is important because it prevents mobiles from fetching large amounts of unneccessary data.</p>
+
+              <h5>What frameworks are, and their pros and cons.</h5>
+                <p>Frameworks are standardized sets of rules, concepts, and criteria for dealing with a common type of problem. There are two types of frameworks - backend and frontend. Backend frameworks deal with the logis and server-side. Frontend frameworks usually consist of a package made up of a structure of files and folders of standardized code (HTML, CSS, JS documents etc.)</p>
+                <p> Some of the well-known front-end frameworks are <br>
+
+                  <button><a href="http://getbootstrap.com/2.3.2/">Bootstrap</a></button>
+                  <button><a href="http://foundation.zurb.com/">Foundation 3</a></button>
+                  <button><a href="http://getskeleton.com/">Skeleton</a></button>
+
+                <p>
+                  Frameworks are tools that can be ex\tremely helpful to some people but it does not meen that they are neccessary to build a website. They also leave certain about of unused code. Developer makes a decision whether to use a framework or not depending on the project purpose and the framework's pros and cons.
+                </p>
+
+              <h5>What a wireframe is and why we use it.</h5>
+                <p>
+                  Wireframe is a page schematic, a drawing or visual guide that represents the skeletal framework of a website. Wireframes show the website’s content, including interface elements and navigational elements, and how they work together.
+                </p>
+
+          </article>
           </div>
         </div>
       </div>  <!-- end primary div.container -->
+
+
+      <div class="row backTop">
+        <div class="container">
+
+          <div class="twelve columns ">
+              <a class="indexBlogLink" href="index.html"> back to top &uarr;</a>
+          </div>
+
+        </div>
+      </div>
+
     </div> <!-- end primary div.table-block -->
 
 
@@ -71,6 +113,7 @@
               <a href="https://www.facebook.com">facebook</a>
               <a href="https://www.instagram.com/ania_podh/">instagram</a> <a href="tel:333 444 333"> call me</a>
             </li>
+          </ul>
 
 
         </footer>
