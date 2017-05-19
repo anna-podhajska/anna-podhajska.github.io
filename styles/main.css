@@ -6,6 +6,8 @@ html, body {
 
 nav select {
   display: none;
+  background-color: black;
+  color: white;
 }
 
 @media (max-width: 550px) {
@@ -14,6 +16,10 @@ nav select {
 }
 /*...... convertible menu end ....*/
 
+.Hellboy img {
+  width: 250px;
+  height: 150px;
+}
 
 .highlight {
   font-style: italic;
@@ -43,7 +49,7 @@ padding: 0;
 
 header {
   background-color: black;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
 }
 
 
@@ -73,6 +79,7 @@ header a {
 .indexFooter {
   margin-top: 40px;
   background-color: black;
+  text-align: center;
 }
 
 
@@ -113,7 +120,7 @@ footer a {
 }
 
 .Hulk {
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 .blogFooter {
