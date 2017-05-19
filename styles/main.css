@@ -16,6 +16,12 @@ nav select {
 }
 /*...... convertible menu end ....*/
 
+
+button a {
+  color: #57a5a3;
+}
+
+
 .Hellboy img {
   width: 250px;
   height: 150px;
@@ -46,6 +52,22 @@ padding: 0;
   font-size: 1rem;
   display: inline;
 }
+
+.LinknoStyle a {
+  text-decoration: none;
+  color: #57a5a3;
+}
+
+.tag {
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+.ul_in_text {
+  list-style-type: disc;
+  padding-left: 2em;
+}
+
 
 header {
   background-color: black;
@@ -161,3 +183,34 @@ footer a {
   .footer-push {
     height: auto;
   }
+
+
+
+
+  /*_____table style_______________*/
+  th, td {
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td, tr {
+    padding: 1px;
+    margin: 1px;
+  }
+
+  th {
+    color: #57a5a3;
+  }
+  /*______end of the table style____ */
+
+
+
+  /*colors used
+  #ce5a57
+  #57a5a3
+  #e1b16a
+  #444c5c*/
