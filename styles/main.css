@@ -4,6 +4,10 @@ html, body {
 
 /* below CONVERTIBLE MENU learned from https://css-tricks.com/convert-menu-to-dropdown/*/
 
+.button {
+  border-radius: 100px;
+}
+
 nav .mobileIndex {
   display: none;
   background-color: black;
@@ -27,6 +31,7 @@ button a {
   height: 150px;
 }
 
+
 .highlight {
   font-style: italic;
   padding: 2rem;
@@ -43,6 +48,7 @@ padding: 0;
   text-decoration: none;
   color: black;
 }
+
 
 .backTop {
   align-items: center;
@@ -145,6 +151,9 @@ footer a {
   margin-top: 3%;
 }
 
+
+
+
 .blogFooter {
   background-color: none;
   text-align: center;
@@ -154,6 +163,7 @@ footer a {
 #footerParrotLink {
   margin: 0;
 }
+
 
 .blogFooter a {
   text-decoration: none;
@@ -174,10 +184,9 @@ footer a {
   padding: 1rem;
 }
 
-.imgBlogHeader {
-  height: 200px;
+.imgBlogMeditation {
+  height: 150px;
 }
-
 
   .table-container {
     display: table;
