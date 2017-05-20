@@ -92,7 +92,7 @@
     z-index: 3;
   }
   .heroImage + .heroImage {
-    top: -6rem;
+    top: -5rem;
     display: block;
     max-width: 73.8%;
     right: 0;
