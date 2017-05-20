@@ -50,9 +50,11 @@
   opacity: .8;
   font-weight: 300;
 }
-
 .subpage-link {
   text-decoration: none;
+}
+.subpage-title:hover {
+  color: #ce5a57;
 }
 
 /* Help
