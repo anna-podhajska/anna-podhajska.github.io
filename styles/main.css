@@ -8,6 +8,10 @@ html, body {
   border-radius: 100px;
 }
 
+.top-img {
+  width: 100%;
+}
+
 nav .mobileIndex {
   display: none;
   background-color: black;
