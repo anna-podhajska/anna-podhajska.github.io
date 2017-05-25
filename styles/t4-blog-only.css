@@ -28,12 +28,17 @@
 .heroImage {
   position: relative;
   max-width: 80%;
-  margin: 3rem auto -12rem;
+  margin: 3rem auto -13rem;
 }
 .heroImage + .heroImage {
   display: none;
 }
 
+.hero-alert {
+  font-size: 0.7rem;
+  margin-top: -2rem;
+  text-align: center;
+}
 
 /* heroines
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -78,6 +83,10 @@
   .hero-heading {
     color: #ce5a57;
   }
+  .h5-hero-one, .h5-hero-two,
+  .h5-hero-three, .h5-hero-four {
+    color: #356462;
+  }
 }
 
 
@@ -96,6 +105,9 @@
   }
   .hero-four {
     background-color: #cee4e4;
+  }
+  .h5-hero-two {
+    background-color: #f6e9d5;
   }
 
   .heroImage {
@@ -134,9 +146,20 @@
   .hero {
     padding: 12rem 0 14rem;
   }
+
   .hero-two {
-    background-color: #e1b16a;
+    background-color: #f6e9d5;
+    margin-top: -20rem;;
+
   }
+  .h5-hero-two {
+    padding-top: 20rem;
+  }
+
+  .h5-hero-three {
+    background-color: #eec5c3;
+  }
+
   .section-description {
     max-width: 60%;
     margin-left: auto;
@@ -165,7 +188,11 @@
     padding: 12rem 0;
   }
   .hero-three {
-    background-color: #dd8b88;
+    background-color: #eec5c3;
+    padding-bottom: 20rem;
+  }
+  .h5-hero-three {
+    background-color: #eec5c3;
   }
   .hero-heading {
     font-size: 3.2rem;
@@ -185,16 +212,13 @@
   .hero-four {
     background-color: #cee4e4;
   }
-
   .section {
     padding: 18rem 0 19rem;
   }
   .hero {
     padding: 12rem 0;
   }
-  .hero-three {
-    background-color: #d87774;
-  }
+
   .hero-heading {
     font-size: 3.2rem;
   }
