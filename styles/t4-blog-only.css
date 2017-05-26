@@ -40,44 +40,17 @@
   text-align: center;
 }
 
-/* heroines
+
+/* footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.heroines {
-  background-color: #a5a999;
-  background-size: cover;
-  color: #fff;
-  padding-bottom: 5rem;
-}
-.heroine-title {
-  margin-bottom: .5rem;
-  color: #b37b3d;
-}
-.heroine-heading {
-  margin-bottom: .3rem;
-}
-.heroine-description {
-  opacity: .8;
-  font-weight: 300;
-}
-.heroine-link {
-  text-decoration: none;
-}
-.heroine-title:hover {
-  color: #ce5a57;
-}
+ .footerlinks {
+   text-decoration: none;
+   color: black;
+ }
 
-/* Categories
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.categories {
-  background-image: url('../images/heroines-bg.jpg');
-  background-size: cover;
-  color: #fff;
+footer {
+  text-align: center;
 }
-.categories .section-description {
-  margin-bottom: 4rem;
-}
-
-
 
 @media (max-width: 550px){
   .hero-heading {

@@ -8,9 +8,6 @@ html, body {
   border-radius: 100px;
 }
 
-.top-img {
-  width: 100%;
-}
 
 nav .mobileIndex {
   display: none;
@@ -109,9 +106,10 @@ header a {
 
 
 .indexFooter {
-  margin-top: 40px;
+  margin: 40px 0 0 0;
   background-color: black;
   text-align: center;
+  height: 2rem;
 }
 
 
@@ -155,7 +153,10 @@ footer a {
   margin-top: 3%;
 }
 
-
+.azalie {
+  margin-bottom: 0;
+  padding-bottom: 0
+}
 
 
 .blogFooter {
@@ -206,7 +207,52 @@ footer a {
   }
 
 
+/*_________contact details page style ---------*/
 
+.card {
+    box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-container {
+    padding: 0 16px;
+}
+
+.contact-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.contact-button a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #57a5a3;
+}
+
+.contact-button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.contact-title {
+    color: grey;
+    font-size: 18px;
+}
+
+.img-contact {
+  width: 50%;
+}
+
+/*------------------------------------------------*/
 
   /*_____table style_______________*/
   th, td {
