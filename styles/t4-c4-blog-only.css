@@ -40,6 +40,21 @@
   text-align: center;
 }
 
+.hero-heading {
+  color: #ce5a57;
+  margin-top: 3rem;
+}
+
+.h5-hero-one, .h5-hero-two,
+.h5-hero-three, .h5-hero-four {
+  color: black;
+  margin-top: 2.5rem;
+}
+
+.azalie-c4 {
+  width: 100%;
+  margin-top: -8rem;
+}
 
 /* footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -52,19 +67,11 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 550px){
-  .hero-heading {
-    color: #ce5a57;
-  }
-  .h5-hero-one, .h5-hero-two,
-  .h5-hero-three, .h5-hero-four {
-    color: #356462;
-  }
-}
-
-
 /*more than 550*/
 @media (min-width: 550px) {
+  .azalie-c4 {
+    display: none;
+  }
   .section {
     padding: 8rem 0 11rem;
   }
@@ -75,63 +82,74 @@ footer {
   }
   .hero-one {
     background-color: #839aa4;
+    margin-top: -20rem;
+    padding-top: 20rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .hero-two {
+    background-color: #f6e9d5;
+    margin-bottom: 0;
+    padding-bottom: 23rem;
   }
   .hero-four {
-    background-color: #cee4e4;
-  }
-  .h5-hero-two {
-    background-color: #f6e9d5;
-  }
-
-  .heroImage {
-    position: absolute;
-    top: -7rem;
-    right: 3rem;
-    max-height: 362px;
-    z-index: 3;
-  }
-  .heroImage + .heroImage {
-    top: -5rem;
-    display: block;
-    max-width: 73.8%;
-    right: 0;
-    z-index: 2;
-    max-height: 338px;
+    background-color: none;
+    padding-top: 20rem;
   }
   .hero-heading {
     font-size: 3rem;
     text-align: center;
     margin-bottom: 3rem;
+    color: black;
   }
+  .h5-hero-three {
+    margin-top: -2rem;
+    padding-top: 5rem;
+  }
+  /*.c4-footer {
+    margin-top: 12rem;
+  }*/
 }
 
 /* Bigger than 750 */
 @media (min-width: 750px) {
+  .azalie-c4 {
+    display: none;
+  }
   .hero {
-    height: 190px;
+  height: 190px;
+  padding: 12rem 0 14rem;
   }
   .hero-heading {
     font-size: 3.2rem;
+    color: black;
   }
   .section {
     padding: 14rem 0 15rem;
   }
-  .hero {
-    padding: 12rem 0 14rem;
+  .hero-one {
+    background-color: #839aa4;
+    margin-top: 0rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
-
   .hero-two {
     background-color: #f6e9d5;
-    margin-top: -20rem;;
-
+    margin-top: -30rem;
+    padding-top: 30rem;
+    padding-bottom: 20rem;
+    margin-bottom: 0;
   }
-  .h5-hero-two {
-    padding-top: 20rem;
-  }
-
   .h5-hero-three {
-    background-color: #eec5c3;
+    background-color: none;
+    margin-top: -5rem;
+    padding-top: 5rem;
   }
+  /*.hero-four {
+    background-color: pink;
+    padding: 0;
+    border-radius: 50px;
+  }*/
 
   .section-description {
     max-width: 60%;
@@ -143,67 +161,43 @@ footer {
     right: 5rem;
     max-height: 510px;
   }
-  .heroImage + .heroImage {
-    top: -12rem;
-    max-height: 472px;
-  }
-  .categories {
-    padding: 15rem 0 8rem;
-  }
+
 }
 
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
+  .azalie-c4 {
+    display: none;
+  }
   .section {
-    padding: 18rem 0 19rem;
+  padding: 18rem 0 19rem;
   }
   .hero {
     padding: 12rem 0;
   }
   .hero-three {
     background-color: #eec5c3;
-    padding-bottom: 20rem;
+    margin-top: 0;
+    padding-top: 0;
   }
   .h5-hero-three {
     background-color: #eec5c3;
   }
-  .hero-heading {
-    font-size: 3.2rem;
-  }
-  .heroImage {
-    top: -16rem;
-    max-height: 615px;
-  }
-  .heroImage + .heroImage {
-    top: -14rem;
-    max-height: 570px;
-  }
-}
-
-/*//only to add 4th div color //*/
-@media (min-width: 1100px) {
   .hero-four {
-    background-color: #cee4e4;
+    background-color: #f6e9d5;
+    margin-top: 0;
+    padding-top: 0;
   }
-  .section {
-    padding: 18rem 0 19rem;
-  }
-  .hero {
-    padding: 12rem 0;
-  }
-
   .hero-heading {
     font-size: 3.2rem;
+    color: black;
   }
   .heroImage {
     top: -16rem;
     max-height: 615px;
   }
-  .heroImage + .heroImage {
-    top: -14rem;
-    max-height: 570px;
-  }
 }
+
 
 
   /*colors used
