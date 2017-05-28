@@ -59,6 +59,9 @@ padding: 0;
   text-decoration: none;
   color: black;
 }
+.indexBlogLink+ h3,p:hover {
+  text-shadow: 1px 1px lightblue;
+}
 .backTop {
   align-items: center;
 }
