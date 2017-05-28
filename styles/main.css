@@ -1,6 +1,9 @@
 html, body {
   height: 100%;
 }
+hr {
+  margin-top: 1rem;
+}
 nav .mobileIndex {
   display: none;
   background-color: black;
@@ -41,10 +44,7 @@ header a {
 .button {
   border-radius: 100px;
 }
-.Hellboy img {
-  width: 250px;
-  height: 150px;
-}
+
 .highlight {
   font-style: italic;
   padding: 2rem;
@@ -88,11 +88,14 @@ padding: 0;
   height: 2rem;
 }
 .indexBlogImg {
-  width: 100%;
+  width: 120%;
+  margin: 1rem 0 0 0;
+  margin-left: -3rem;
+  margin-right: -3rem;
 }
-.centered {
+/*.centered {
   text-align: center;
-}
+}*/
 /*_____________________FOOTERS*/
 footer a {
   text-decoration: none;
@@ -233,7 +236,13 @@ footer a {
   /*______end of the table style____ */
 
 
-
+@media (min-width: 550px) {
+  .indexBlogImg {
+    width: 100%;
+    padding: 0;
+    margin: 3rem 0 0 0;
+  }
+}
   /*______________________________ scolors used
   #ce5a57
   #57a5a3
