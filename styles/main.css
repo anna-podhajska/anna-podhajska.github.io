@@ -1,96 +1,31 @@
 html, body {
   height: 100%;
 }
-
-/* below CONVERTIBLE MENU learned from https://css-tricks.com/convert-menu-to-dropdown/*/
-
-.button {
-  border-radius: 100px;
-}
-
-
 nav .mobileIndex {
   display: none;
   background-color: black;
   color: white;
 }
-
 @media (max-width: 550px) {
   nav ul     { display: none; }
   nav .mobileIndex { display: inline-block; }
 }
-/*...... convertible menu end ....*/
-
-
 code a {
   color: #57a5a3;
 }
 
-
-.Hellboy img {
-  width: 250px;
-  height: 150px;
-}
-
-
-.highlight {
-  font-style: italic;
-  padding: 2rem;
-  background-color: #ccc;
-  border-radius: 0.5rem;
-  box-shadow: 0.5rem 0.5rem 0 0 #aaa;
-}
-
-.Hellboy {
-padding: 0;
-}
-
-.indexBlogLink {
-  text-decoration: none;
-  color: black;
-}
-
-
-.backTop {
-  align-items: center;
-}
-
-.backTop a {
-  font-size: 1rem;
-  display: inline;
-}
-
-.LinknoStyle a {
-  text-decoration: none;
-  color: #57a5a3;
-}
-
-.tag {
-  font-size: 0.7rem;
-  text-align: right;
-}
-
-.ul_in_text {
-  list-style-type: disc;
-  padding-left: 2em;
-}
-
-
+/*___________________________________header */
 header {
   background-color: black;
   margin-bottom: 3%;
 }
-
-
 header ul {
   list-style-type: none;
   margin-bottom: 0;
 }
-
 header li {
   margin-bottom: 0;
 }
-
 header a {
   text-decoration: none;
   float: none;
@@ -98,13 +33,51 @@ header a {
   font-size: 1em;
   padding-right: 4em;
 }
-
 .headerIcon img {
   height: 40px;
   margin-top: 0.5rem;
 }
-
-
+/*______________________________________*/
+.button {
+  border-radius: 100px;
+}
+.Hellboy img {
+  width: 250px;
+  height: 150px;
+}
+.highlight {
+  font-style: italic;
+  padding: 2rem;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0 0 #aaa;
+}
+.Hellboy {
+padding: 0;
+}
+.indexBlogLink {
+  text-decoration: none;
+  color: black;
+}
+.backTop {
+  align-items: center;
+}
+.backTop a {
+  font-size: 1rem;
+  display: inline;
+}
+.LinknoStyle a {
+  text-decoration: none;
+  color: #57a5a3;
+}
+.tag {
+  font-size: 0.7rem;
+  text-align: right;
+}
+.ul_in_text {
+  list-style-type: disc;
+  padding-left: 2em;
+}
 .indexFooter {
   margin: 40px 0 0 0;
   background-color: black;
@@ -112,33 +85,28 @@ header a {
   height: 2rem;
 }
 
-
+/*_____________________FOOTERS*/
 footer a {
   text-decoration: none;
   float: none;
   color: white;
   font-size: 0.8em;
 }
-
-
 .footerIcon img  {
   height: 30px;
   padding-top: 1rem;
   padding-bottom: 1rem;
   }
-
 .empty {
   height: 3rem;
 }
 
 
-/*--------------------------*/
-/*BLOG STYLE*/
+/*________________________________BLOG STYLE*/
 
 .blogHeader {
   background-color: black;
 }
-
 .blogHeader ul {
   padding-top: 2rem;
   margin-top: 0;
@@ -148,66 +116,54 @@ footer a {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-
 .Hulk {
   margin-top: 3%;
 }
-
 .azalie {
   margin-bottom: 0;
   padding-bottom: 0
 }
-
-
 .blogFooter {
   background-color: none;
   text-align: center;
   margin-top: 25%;
 }
-
 #footerParrotLink {
   margin: 0;
 }
-
-
 .blogFooter a {
   text-decoration: none;
   color: black;
   margin-right: 2rem
 }
-
 .blogFooter ul {
   list-style-type: none;
 }
-
 .blogFooter img {
   height: 40px;
 }
-
 .wireframePic {
   width: 300px;
   padding: 1rem;
 }
-
 .imgBlogMeditation {
   height: 150px;
 }
+.table-container {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.table-block {
+  display: table-row;
+  height: 1px;
+}
+.footer-push {
+  height: auto;
+}
 
-  .table-container {
-    display: table;
-    height: 100%;
-    width: 100%;
-  }
-  .table-block {
-    display: table-row;
-    height: 1px;
-  }
-  .footer-push {
-    height: auto;
-  }
 
-
-/*_________contact details page style ---------*/
+/*_________CONTACT details page style ---------*/
 
 .card {
     box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.2);
@@ -215,11 +171,9 @@ footer a {
     margin: auto;
     text-align: center;
 }
-
 .contact-container {
     padding: 0 16px;
 }
-
 .contact-button {
     border: none;
     outline: 0;
@@ -232,29 +186,25 @@ footer a {
     width: 100%;
     font-size: 18px;
 }
-
 .contact-button a {
   text-decoration: none;
   font-size: 20px;
   color: #57a5a3;
 }
-
 .contact-button:hover, a:hover {
     opacity: 0.7;
 }
-
 .contact-title {
     color: grey;
     font-size: 18px;
 }
-
 .img-contact {
   width: 50%;
 }
 
 /*------------------------------------------------*/
 
-  /*_____table style_______________*/
+  /*_____TABLE in blog style_______________*/
   th, td {
     border-bottom: 1px solid #ddd;
     border-collapse: collapse;
@@ -276,7 +226,7 @@ footer a {
 
 
 
-  /*colors used
+  /*______________________________ scolors used
   #ce5a57
   #57a5a3
   #e1b16a
