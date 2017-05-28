@@ -87,7 +87,12 @@ padding: 0;
   text-align: center;
   height: 2rem;
 }
-
+.indexBlogImg {
+  width: 100%;
+}
+.centered {
+  text-align: center;
+}
 /*_____________________FOOTERS*/
 footer a {
   text-decoration: none;
