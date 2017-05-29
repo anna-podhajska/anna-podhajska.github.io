@@ -17,6 +17,9 @@ code a {
   color: #57a5a3;
 }
 
+.Hulk p {
+  text-align: justify;
+}
 /*___________________________________header */
 header {
   background-color: black;
@@ -58,9 +61,6 @@ padding: 0;
 .indexBlogLink {
   text-decoration: none;
   color: black;
-}
-.indexBlogLink+ h3,p:hover {
-  text-shadow: 1px 1px lightblue;
 }
 .backTop {
   align-items: center;
