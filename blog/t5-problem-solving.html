@@ -28,7 +28,7 @@
 
     <div class="container">
 
-      <h5 class="h5-hero-one"> Tell your non-tech friend a story about a time you: got blocked on a simple problem and solved a problem in an elegant way</h5>
+      <h5 class="h5-hero-one first-topic-push"> Tell your non-tech friend a story about a time you: got blocked on a simple problem and solved a problem in an elegant way</h5>
 
 
       <div class="row">
@@ -69,11 +69,11 @@
     <hr>
 
     <div class="row">
-      <div class="six columns functions-one">
+      <div class="twelve columns functions-one">
         <h5> .map() </h5>
         <p class="description">map() takes an array and a function and returns a new one where each element of the new array is a result of applying the function to each element of the original array
       </div>
-      <div class="six columns functions-one">
+
         <p class="code">
           var englishWords = ['dog', 'flower', 'home', 'eight'];</br>
           function italianize(i) { </br>
@@ -81,34 +81,34 @@
           } </br>
           var italian_words = englishWords.map(italianize); </br>
           console.log(italian_words);</p>
-      </div>
+
     </div>
     <hr>
 
 
       <div class="row">
-        <div class="six columns functions-two">
+        <div class="twelve columns functions-two">
           <h5> .filter() </h5>
           <p class="description"> filter() takes an array and a function and returns a new array which contains only those elements from the original array for which the function returns true
         </div>
-        <div class="six columns functions-two">
+
           <p class="code">
             var dirtyWords = ['flip', 'moon', 'flop', 'sun'];<br>
             function filterSwearWords(word) {<br>
               return !word.includes("f");<br>
             }
           </p>
-        </div>
+
       </div>
       <hr>
 
 
       <div class="row">
-        <div class="six columns functions-two">
+        <div class="twelve columns functions-two">
           <h5> .reduce() </h5>
           <p class="description">.reduce()'reduces' an array by applying the given function to each array element, reduce() will return the accumulated value
         </div>
-        <div class="six columns functions-two">
+
           <p class="code">
             var myWords = ['Lazy', 'dog', 'sleeps', 'whole', 'day'];<br>
             function makePoem(poemSoFar, newWord) {<br>
@@ -117,7 +117,7 @@
             var myPoem = myWords.reduce(makePoem, "My beautiful poem:");<br>
             console.log(myPoem);<br>
           </p>
-        </div>
+
       </div>
       <hr>
 
