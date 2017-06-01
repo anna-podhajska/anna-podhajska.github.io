@@ -2,7 +2,7 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h3 {
-  font-size: 5rem;
+  font-size: 5.5rem;
   color: white;
   font-family: cursive;
 }
@@ -68,11 +68,12 @@ footer {
 @media (min-width: 550px) {
 
   .desktop {
-    display: inline;
+    display: inline-block;
     color: #ce5a57;
     font-size: 1.5rem;
-    font-style: italic;
     font-family: serif;
+    margin-top: -3rem;
+
   }
   .mobile {
     display: none;
