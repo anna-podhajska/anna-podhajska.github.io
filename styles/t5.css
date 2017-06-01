@@ -36,7 +36,7 @@ h5 {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero-heading {
-  background-color: #57a5a3;
+  background-color: #6e7166;
   text-align: center;
   margin: 0;
   padding: 3rem 0;
@@ -69,7 +69,7 @@ footer {
 
   .desktop {
     display: inline-block;
-    color: #ce5a57;
+    color: #c87f8a;
     font-size: 1.5rem;
     font-family: serif;
     margin-top: -3rem;
