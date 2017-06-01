@@ -2,7 +2,7 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h3 {
-  font-size: 5.5rem;
+  font-size: 5rem;
   color: white;
   font-family: cursive;
 }
@@ -83,12 +83,25 @@ footer {
     font-size: 1.4rem;
     font-style: italic;
     padding: 10rem 0 0 2rem;
+  }
 
 /* Bigger than 750 */
+h3 {
+  font-size: 7rem;
+}
+.hero-heading {
+  background-color: #979678;
+}
+.desktop {
+  color: #606662;
+}
 
 
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
+  h3 {
+    font-size: 10rem;
+  }
 
 
 
