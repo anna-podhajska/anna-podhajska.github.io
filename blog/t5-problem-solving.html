@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title> ania's corner </title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" type"text/css" href="../styles/t5.css">
+
+  <link rel="shortcut icon" href="favicon.ico" type="favicon.ico">
+  <link rel="icon" href="../favicon.ico" type="favicon.ico">
+
+</head>
+
+<body>
+
+  <div class="section hero">
+
+    <div class="row hero-heading">
+      <h3 class="hero-heading">Problem Solving</h3>
+      <h5 class="mobile">I am a mobile version of the page</h5>
+      <h5 class="desktop">I am a desktop version of the page</h5>
+    </div>
+
+    <div class="container">
+
+      <h5 class="h5-hero-one"> Tell your non-tech friend a story about a time you: got blocked on a simple problem and solved a problem in an elegant way</h5>
+
+
+      <div class="row">
+
+        <div class="six columns hero-one">
+          <section class="hero-desctiption">
+            <p class="description">I was blocked on a simple things as missing semicolon in the code many times. We’re humans and it is quite easy to omit small things, as for example missing symbol, wrong syntax, or a typo. To solve a problem, I usually check the code couple of times and use chrome debugger. If the problem still exists and I am sure that I run out of ideas, then I ask someone for the code review. However, before that I explain what I did to the "reviewer" and sometimes, it is just enough to find the problem by my own! <em>Small errors</em> are easy to make and often hard to find.</p>
+          </section>
+        </div>
+        <div class="six columns hero-one">
+          <section class="hero-desctiption">
+            <p class="description">I recently had a larger problem connected with incorrect usage of one of the loops in a program. At first, I did not see the error and got frustrated since the code <em>should</em> work, but it didn't. Since begging the code to work did not give much chance for the success, I started going line by line in the code with full understanding what each line doeas. I also used chrome debugger. Summing up, I tried to question my assumptions, find patterns and anything that may interrupt them, looked for things that seem to be odd, missing, or shouldn't be in the code. I also tried not to do any unnecessary code re-factorig while looking for the bug, unless it led to the code simplifying. I can't resist myself at this point.</p> 
+          </section>
+        </div>
+      </div>
+
+
+
+    <div class="row">
+        <h5 class"h5-hero-two">Reflect on how confident you feel using the problem solving techniques and process:</h5>
+    </div>
+
+    <div class="row">
+
+      <div class="six columns hero-two">
+        <section class="hero-description">
+          <p class="description">Currently, I'm discovering some techniques, and some are already known from my previous experience - just as googling, reading error messages, or consulting. When coding, I find the first two very helpful. </p>
+        </section>
+      </div>
+
+      <div class="six columns hero-two">
+        <section class="hero-desctiption">
+          <p class="description">Googling is usually a quick way to find resources or someone else who already has already had a similar problem. Reading error messages, no matter whether they come from git or debugger, is a useful habit. It is surprising how many people do not read them. Writing a pseudocode seems useful especially when solving some more complex problem, it helps to simplify it.</p>
+        </section>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="six columns functions-one">
+        <h5> .map() </h5>
+        <p class="description">map() takes an array and a function and returns a new one where each element of the new array is a result of applying the function to each element of the original array
+      </div>
+      <div class="six columns functions-one">
+        <p class="code">
+          var englishWords = ['dog', 'flower', 'home', 'eight'];</br>
+          function italianize(i) { </br>
+            return i + "o"; </br>
+          } </br>
+          var italian_words = englishWords.map(italianize); </br>
+          console.log(italian_words);</p>
+      </div>
+    </div>
+
+
+      <div class="row">
+        <div class="six columns functions-two">
+          <h5> .filter() </h5>
+          <p class="description"> filter() takes an array and a function and returns a new array which contains only those elements from the original array for which the function returns true
+        </div>
+        <div class="six columns functions-two">
+          <p class="code">
+            var dirtyWords = ['flip', 'moon', 'flop', 'sun'];<br>
+            function filterSwearWords(word) {<br>
+              return !word.includes("f");<br>
+            }
+          </p>
+        </div>
+      </div>
+
+
+        <div class="row">
+          <div class="six columns functions-two">
+            <h5> .reduce() </h5>
+            <p class="description">.reduce()'reduces' an array by applying the given function to each array element, reduce() will return the accumulated value
+          </div>
+          <div class="six columns functions-two">
+            <p class="code">
+              var myWords = ['Lazy', 'dog', 'sleeps', 'whole', 'day'];<br>
+              function makePoem(poemSoFar, newWord) {<br>
+                return poemSoFar + " " + newWord;<br>
+              }<br>
+              var myPoem = myWords.reduce(makePoem, "My beautiful poem:");<br>
+              console.log(myPoem);<br>
+            </p>
+          </div>
+        </div>
+
+    </div>
+
+
+        <div class="row">
+          <footer class ="full-width">
+            <a class="footerlinks" href="../index.html" class="active">home</a>
+            <a class="footerlinks">|</a>
+            <a class="footerlinks" href="a-index-all-blogs.html">blog</a>
+            <a class="footerlinks">|</a>
+            <a class="footerlinks" href="a-about.html">about</a>
+
+          <footer>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

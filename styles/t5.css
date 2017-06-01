@@ -1,0 +1,101 @@
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h3 {
+  font-size: 5rem;
+  color: white;
+  font-family: cursive;
+}
+
+h5 {
+  color: #ce5a57;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.description {
+  text-align: justify;
+}
+
+.mobile {
+  color: #e1b16a;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: serif;
+  margin-top: -3rem;
+}
+
+.desktop {
+  display: none;
+}
+
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero-heading {
+  background-color: #57a5a3;
+  text-align: center;
+  margin: 0;
+  padding: 3rem 0;
+
+}
+
+/* Functions
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.code {
+  font-size: 1.4rem;
+  font-style: italic;
+  padding: 2rem 0 0 2rem;
+
+}
+
+/* footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer a {
+   text-decoration: none;
+   color: black;
+   margin-top: 4rem;
+ }
+
+footer {
+  text-align: center;
+}
+
+/*more than 550*/
+@media (min-width: 550px) {
+
+  .desktop {
+    display: inline;
+    color: #ce5a57;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: serif;
+  }
+  .mobile {
+    display: none;
+  }
+
+  .code {
+    font-size: 1.4rem;
+    font-style: italic;
+    padding: 10rem 0 0 2rem;
+
+/* Bigger than 750 */
+
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+
+
+
+
+
+  /*colors used
+  #ce5a57
+  #57a5a3
+  #e1b16a
+  #444c5c
+  #839aa4*/

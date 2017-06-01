@@ -90,7 +90,7 @@ footer {
   .hero-two {
     background-color: #f6e9d5;
     margin-bottom: 0;
-    padding-bottom: 23rem;
+    padding-bottom: 0rem;
   }
   .hero-four {
     background-color: none;
@@ -137,7 +137,7 @@ footer {
     background-color: #f6e9d5;
     margin-top: -30rem;
     padding-top: 30rem;
-    padding-bottom: 20rem;
+    padding-bottom: 0rem;
     margin-bottom: 0;
   }
   .h5-hero-three {
