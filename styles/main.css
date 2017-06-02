@@ -2,17 +2,14 @@ html, body {
   height: 100%;
 }
 hr {
-  margin-top: 1rem;
+  margin: 1rem 0 -1rem 0;
 }
 nav .mobileIndex {
   display: none;
   background-color: black;
   color: white;
 }
-@media (max-width: 550px) {
-  nav ul     { display: none; }
-  nav .mobileIndex { display: inline-block; }
-}
+
 code a {
   color: #57a5a3;
 }
@@ -88,8 +85,8 @@ padding: 0;
   height: 2rem;
 }
 .indexBlogImg {
-  width: 120%;
-  margin: 1rem 0 0 0;
+  min-width: 100px;
+  max-width: 120%;
   margin-left: -3rem;
   margin-right: -3rem;
 }
@@ -235,12 +232,15 @@ footer a {
   }
   /*______end of the table style____ */
 
-
+@media (max-width: 550px) {
+  nav ul     { display: none; }
+  nav .mobileIndex { display: inline-block; }
+}
 @media (min-width: 550px) {
   .indexBlogImg {
-    width: 100%;
+    max-width: 380px;
     padding: 0;
-    margin: 3rem 0 0 0;
+    margin: 4rem 0 0 -1rem;
   }
 }
   /*______________________________ scolors used

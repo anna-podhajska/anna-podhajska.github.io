@@ -1,0 +1,134 @@
+/* *****  just a new Css to test some new things ************
+
+
+/* Shared, mobile first
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+hr {
+  margin-top: 0;
+}
+h3 {
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 8rem;
+  font-variant: small-caps;
+  font-weight: lighter;
+  color: white;
+}
+h5 {
+  font-family: 'Bubbler One', sans-serif;
+  color: #ce5a57;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.quote-source {
+  font-size: 0.9rem;
+}
+.word-color {
+  color: #ce5a57;
+}
+.white {
+  color: white;
+}
+.description {
+  text-align: justify;
+}
+.center {
+  text-align: center;
+}
+.photo {
+  background-image: url(../images/background1.jpg);
+}
+.PushLeftRight {
+  padding: 0 3rem;
+}
+.indexBlogLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero-heading {
+  text-align: center;
+  margin: 0;
+  padding: 3rem 0;
+}
+.push {
+  margin-top: 8rem;
+}
+.h5-hero-one {
+  font-size: 2.5rem;
+  margin-top: -2.5rem;
+
+  /* Hulk
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+}
+/* Functions
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.code {
+  font-size: 1.3rem;
+  font-style: italic;
+  padding: 2rem 0 0 2rem;
+  padding-left: 5rem;
+}
+
+/* footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer a {
+   text-decoration: none;
+   color: black;
+   margin-top: 4rem;
+ }
+
+footer {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/*more than 550*/
+@media (min-width: 550px) {
+.code {
+  font-size: 1.4rem;
+  font-style: italic;
+  padding: 10rem 0 0 2rem;
+}
+footer {
+  padding-bottom: 0rem;
+}
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+body {
+  background-color: white;
+}
+h3 {
+  color: #d9cbae;
+  font-size: 9rem;
+}
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  h3 {
+    font-size: 12rem;
+    color: #d0bc9e;
+  }
+}
+
+
+  /*my colors reference
+  #ce5a57
+  #57a5a3
+  #e1b16a
+  #d9cbae
+  #777c76
+  #444c5c
+  #839aa4*/
