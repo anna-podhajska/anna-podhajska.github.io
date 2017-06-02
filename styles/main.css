@@ -2,7 +2,7 @@ html, body {
   height: 100%;
 }
 hr {
-  margin: 1rem 0 -1rem 0;
+  margin: 1rem 0 1rem 0;
 }
 nav .mobileIndex {
   display: none;
