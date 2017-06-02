@@ -33,7 +33,9 @@ h5 {
   font-family: serif;
   margin-top: -3rem;
 }
-
+.PushLeftRight {
+  padding: 0 3rem;
+}
 .smallScreen {
   display: none;
   color: #d9cbae;
@@ -50,9 +52,6 @@ h5 {
   font-weight: lighter;
   margin-top: -4rem;
 }
-
-
-
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -76,7 +75,6 @@ h5 {
   font-style: italic;
   padding: 2rem 0 0 2rem;
   padding-left: 5rem;
-
 }
 
 /* footer
@@ -89,6 +87,7 @@ footer a {
 
 footer {
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 /*more than 550*/
@@ -97,6 +96,9 @@ footer {
   font-size: 1.4rem;
   font-style: italic;
   padding: 10rem 0 0 2rem;
+}
+footer {
+  padding-bottom: 0rem;
 }
 }
 
