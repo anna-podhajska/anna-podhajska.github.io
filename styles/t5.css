@@ -6,9 +6,12 @@ hr {
 }
 h3 {
   font-size: 5rem;
+  font-variant: small-caps;
+  font-weight: lighter;
   color: #e1b16a;
 }
 h5 {
+  font-variant: small-caps;
   color: #ce5a57;
   text-align: center;
   margin-top: 2rem;
