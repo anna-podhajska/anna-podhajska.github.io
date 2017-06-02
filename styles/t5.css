@@ -3,22 +3,23 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h3 {
   font-size: 5rem;
-  color: white;
-  font-family: cursive;
+  color: #e1b16a;
 }
 
 h5 {
   color: #ce5a57;
-  margin-top: 2rem;
   text-align: center;
 }
 
+hr {
+  margin-top: 0;
+}
 .description {
   text-align: justify;
 }
 
 .mobile {
-  color: #e1b16a;
+  color: #c0af93;
   font-size: 1.5rem;
   font-style: italic;
   font-family: serif;
@@ -27,6 +28,19 @@ h5 {
 
 .desktop {
   display: none;
+  color: white;
+  font-size: 1.5rem;
+  font-family: serif;
+  margin-top: -3rem;
+}
+
+.smallScreen {
+  display: none;
+  color: #d9cbae;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: serif;
+  margin-top: -3rem;
 }
 
 
@@ -69,42 +83,45 @@ footer {
 
 /*more than 550*/
 @media (min-width: 550px) {
-
-  .desktop {
-    display: inline-block;
-    color: #c87f8a;
-    font-size: 1.5rem;
-    font-family: serif;
-    margin-top: -3rem;
-
-  }
-  .mobile {
-    display: none;
-  }
-
-  .code {
-    font-size: 1.4rem;
-    font-style: italic;
-    padding: 10rem 0 0 2rem;
-  }
+.code {
+  font-size: 1.4rem;
+  font-style: italic;
+  padding: 10rem 0 0 2rem;
+}
+}
 
 /* Bigger than 750 */
+@media (min-width: 750px) {
 h3 {
+  color: white;
   font-size: 7rem;
 }
 .hero-heading {
   background-color: #777c76;
 }
-.desktop {
-  color: #606662;
+.mobile {
+  display: none;
 }
-
+.smallScreen {
+  display: inline-block;
+}
+.desktop {
+  display: none;
+}
+}
 
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
   h3 {
     font-size: 10rem;
   }
+  .smallScreen {
+    display: none;
+  }
+  .desktop {
+    display: inline-block;
+  }
+}
 
 
 
