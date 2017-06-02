@@ -5,13 +5,14 @@ hr {
   margin-top: 0;
 }
 h3 {
-  font-size: 5rem;
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 8rem;
   font-variant: small-caps;
   font-weight: lighter;
   color: #e1b16a;
 }
 h5 {
-  font-variant: small-caps;
+  font-family: 'Bubbler One', sans-serif;
   color: #ce5a57;
   text-align: center;
   margin-top: 2rem;
@@ -30,9 +31,10 @@ h5 {
   text-align: center;
 }
 .mobile {
-  color: #c0af93;
+  font-family: 'Bubbler One', sans-serif;
+  color: #d9cbae;
   font-size: 1.5rem;
-  font-style: italic;
+  /*font-style: italic;*/
   font-family: serif;
   margin-top: -3rem;
 }
@@ -62,7 +64,7 @@ h5 {
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero-heading {
-  background-color: #6e7166;
+  background-color: #777c76;
   text-align: center;
   margin: 0;
   padding: 3rem 0;
@@ -109,7 +111,7 @@ footer {
 @media (min-width: 750px) {
 h3 {
   color: white;
-  font-size: 7rem;
+  font-size: 9rem;
 }
 .hero-heading {
   background-color: #777c76;
@@ -142,9 +144,10 @@ h3 {
 
 
 
-  /*colors used
+  /*my colors reference
   #ce5a57
   #57a5a3
   #e1b16a
+  #777c76
   #444c5c
   #839aa4*/

@@ -29,101 +29,19 @@
 
     <div class="container">
 
-      <h5 class="h5-hero-one first-topic-push"> Tell your non-tech friend a story about a time you: got blocked on a simple problem and solved a problem in an elegant way</h5>
+      <h5 class="h5-hero-one first-topic-push"> Tell your non-tech friend a story about a time you: <br>got blocked on a simple problem and solved a problem in an elegant way</h5>
 
-      <h6 class="center"><em>Small errors</em> are easy to make and often hard to find.</p></h6>
+      <h6 class="center"><em>"Small errors"</em> are easy to make and often hard to find.</p></h6>
 
       <div class="row">
 
-        <div class="six columns hero-one">
+        <div class="twelve columns hero-one">
           <section class="hero-desctiption">
             <p class="description">I was blocked on a simple things as missing semicolon in the code many times. We’re humans and it is quite easy to omit small things, as for example missing symbol, wrong syntax, or a typo. To solve a problem, I usually check the code couple of times and use chrome debugger. If the problem still exists and I am sure that I run out of ideas, then I ask someone for the code review. However, before that I explain what I did to the "reviewer" and sometimes, it is just enough to find the problem by my own!
           </section>
         </div>
-        <div class="six columns hero-one">
-          <section class="hero-desctiption">
-            <p class="description">I recently had a larger problem connected with incorrect usage of one of the loops in a program. At first, I did not see the error and got frustrated since the code <em>should</em> work, but it didn't. Since begging the code to work did not give much chance for the success, I started with reviewing the code line by line. I also used chrome debugger. Summing up, I tried to question my assumptions, find patterns and anything that may interrupt them, looked for things that seem to be odd, missing, or shouldn't be in the code. I also tried not to do any unnecessary code re-factorig at the time.</p> 
-          </section>
-        </div>
-      </div>
+      </div?
 
-
-
-    <div class="row">
-        <h5 class"h5-hero-two">Reflect on how confident you feel using the problem solving techniques and process:</h5>
-    </div>
-
-    <div class="row">
-
-      <div class="six columns hero-two">
-        <section class="hero-description">
-          <p class="description">Currently, I'm discovering some techniques, and some are already known from my previous experience - just as googling, reading error messages, or consulting. When coding, I find the first two very helpful. </p>
-        </section>
-      </div>
-
-      <div class="six columns hero-two">
-        <section class="hero-desctiption">
-          <p class="description">Googling is usually a quick way to find resources or someone else who already has had a similar problem. Reading error messages, no matter whether they come from git or debugger, is a useful habit. It is surprising how many people do not read them. Writing a pseudocode seems useful especially when solving some more complex problem, it helps to simplify it.</p>
-        </section>
-      </div>
-
-    </div>
-    <hr>
-
-    <div class="row">
-      <div class="twelve columns functions-one">
-        <h5> .map() </h5>
-        <p class="description">map() takes an array and a function and returns a new one where each element of the new array is a result of applying the function to each element of the original array
-      </div>
-
-        <p class="code">
-          var englishWords = ['dog', 'flower', 'home', 'eight'];</br>
-          function italianize(i) { </br>
-            return i + "o"; </br>
-          } </br>
-          var italian_words = englishWords.map(italianize); </br>
-          console.log(italian_words);</p>
-
-    </div>
-    <hr>
-
-
-      <div class="row">
-        <div class="twelve columns functions-two">
-          <h5> .filter() </h5>
-          <p class="description"> filter() takes an array and a function and returns a new array which contains only those elements from the original array for which the function returns true
-        </div>
-
-          <p class="code">
-            var dirtyWords = ['flip', 'moon', 'flop', 'sun'];<br>
-            function filterSwearWords(word) {<br>
-              return !word.includes("f");<br>
-            }
-          </p>
-
-      </div>
-      <hr>
-
-
-      <div class="row">
-        <div class="twelve columns functions-two">
-          <h5> .reduce() </h5>
-          <p class="description">.reduce() 'reduces' an array by applying the given function to each array element, reduce() will return the accumulated value
-        </div>
-
-          <p class="code">
-            var myWords = ['Lazy', 'dog', 'sleeps', 'whole', 'day'];<br>
-            function makePoem(poemSoFar, newWord) {<br>
-              return poemSoFar + " " + newWord;<br>
-            }<br>
-            var myPoem = myWords.reduce(makePoem, "My beautiful poem:");<br>
-            console.log(myPoem);<br>
-          </p>
-
-      </div>
-      <hr>
-
-    </div>
 
 
         <div class="row">
