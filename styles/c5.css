@@ -16,6 +16,7 @@ h3 {
 }
 h5 {
   font-family: 'Bubbler One', sans-serif;
+  font-size: 2.5rem;
   color: #ce5a57;
   text-align: center;
   margin-top: 5rem;
@@ -42,7 +43,10 @@ h5 {
 .PushLeftRight {
   padding: 0 3rem;
 }
-.indexBlogLink {
+.backTop {
+  text-align: center;
+}
+.backTopLink {
   text-decoration: none;
   color: black;
   font-size: 1rem;
@@ -62,13 +66,15 @@ h5 {
   margin-top: 8rem;
 }
 .h5-hero-one {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   margin-top: -2.5rem;
+}
 
   /* Hulk
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-
+.h5-hulk-one {
+  font-size: 2.5rem;
 }
 /* Functions
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -108,6 +114,12 @@ footer {
 @media (min-width: 750px) {
 body {
   background-color: white;
+}
+.h5-hero-one {
+  font-size: 3rem;
+}
+.h5-hulk-one {
+  font-size: 3.5rem;
 }
 h3 {
   color: #d9cbae;
