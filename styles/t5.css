@@ -1,35 +1,35 @@
 
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 0;
+}
 h3 {
   font-size: 5rem;
   color: #e1b16a;
 }
-
 h5 {
   color: #ce5a57;
   text-align: center;
+  margin-top: 2rem;
+}
+.h5-code {
+  color: #6e7166;
+}
+.word-color {
+  color: #ce5a57;
 }
 
-hr {
-  margin-top: 0;
-}
 .description {
   text-align: justify;
 }
-
+.center {
+  text-align: center;
+}
 .mobile {
   color: #c0af93;
   font-size: 1.5rem;
   font-style: italic;
-  font-family: serif;
-  margin-top: -3rem;
-}
-
-.desktop {
-  display: none;
-  color: white;
-  font-size: 1.5rem;
   font-family: serif;
   margin-top: -3rem;
 }
@@ -42,6 +42,16 @@ hr {
   font-family: serif;
   margin-top: -3rem;
 }
+
+.desktop {
+  display: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-top: -4rem;
+}
+
+
 
 
 /* Sections
