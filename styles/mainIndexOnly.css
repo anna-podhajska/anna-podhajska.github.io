@@ -1,8 +1,17 @@
 
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+h5 {
+  font-weight: lighter;
+  font-size: 1.8rem;
+}
 .button {
   border-radius: 100px;
+}
+/*___________skeleton button colors override*/
+.button.button-primary {
+  background-color: #dbcaae;
+  border-color: #dbcaae;
 }
 
 /* Sections
@@ -34,7 +43,7 @@
 /* subpages
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .subpages {
-  background-color: #a5a999;
+  background-color: #c0c9c3;
   background-size: cover;
   color: #fff;
   padding-bottom: 5rem;
@@ -58,7 +67,7 @@
 }
 
 
-
+/*____________________________*/
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
@@ -145,9 +154,11 @@
 
 
 
-  /*colors used
+  /*_______my colors used_______
   #ce5a57
   #57a5a3
   #e1b16a
   #444c5c
-  #839aa4*/
+  #839aa4
+  #88a3aa
+  #a5a999*/

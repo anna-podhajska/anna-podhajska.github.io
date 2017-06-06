@@ -9,11 +9,9 @@ nav .mobileIndex {
   background-color: black;
   color: white;
 }
-
 code a {
   color: #57a5a3;
 }
-
 .Hulk p {
   text-align: justify;
 }
@@ -78,12 +76,6 @@ padding: 0;
   list-style-type: disc;
   padding-left: 2em;
 }
-.indexFooter {
-  margin: 40px 0 0 0;
-  background-color: black;
-  text-align: center;
-  height: 2rem;
-}
 .indexBlogImg {
   min-width: 100px;
   max-width: 120%;
@@ -94,8 +86,7 @@ padding: 0;
   text-align: center;
 }*/
 
-
-/*_____________________ANCHOR MENU*/
+/*_____________top ANCHOR MENU on indexBlogsList*/
 
 .anchor_nav_menus {
   display: none;
@@ -123,7 +114,16 @@ padding: 0;
   font-variant: small-caps;
 }
 
-/*_____________________FOOTERS*/
+/*_____________________FOOTERS INDEX*/
+.indexFooter {
+  margin: 40px 0 0 0;
+  background-color: none;
+  text-align: center;
+  height: 2rem;
+}
+.indexFooter a {
+  color: black;
+}
 footer a {
   text-decoration: none;
   float: none;
@@ -139,8 +139,8 @@ footer a {
   height: 3rem;
 }
 
-
-/*________________________________BLOG STYLE*/
+/*__________________________FIRST BLOGS STYLE*/
+/*___newer blogs have own css*/
 
 .blogHeader {
   background-color: black;
@@ -161,6 +161,23 @@ footer a {
   margin-bottom: 0;
   padding-bottom: 0
 }
+.wireframePic {
+  width: 300px;
+  padding: 1rem;
+}
+.imgBlogMeditation {
+  height: 150px;
+}
+.table-container {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.table-block {
+  display: table-row;
+  height: 1px;
+}
+/*______blog FOOTERS*/
 .blogFooter {
   background-color: none;
   text-align: center;
@@ -180,25 +197,11 @@ footer a {
 .blogFooter img {
   height: 40px;
 }
-.wireframePic {
-  width: 300px;
-  padding: 1rem;
-}
-.imgBlogMeditation {
-  height: 150px;
-}
-.table-container {
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-.table-block {
-  display: table-row;
-  height: 1px;
-}
 .footer-push {
   height: auto;
 }
+/*_________________*/
+
 
 
 /*_________CONTACT details page style ---------*/
@@ -242,21 +245,19 @@ footer a {
 
 /*------------------------------------------------*/
 
+
   /*_____TABLE in blog style_______________*/
   th, td {
     border-bottom: 1px solid #ddd;
     border-collapse: collapse;
   }
-
   table {
     width: 100%;
   }
-
   td, tr {
     padding: 1px;
     margin: 1px;
   }
-
   th {
     color: #57a5a3;
   }
@@ -273,8 +274,6 @@ footer a {
     margin: 4rem 0 0 -1rem;
   }
 }
-
-
 @media (min-width: 1300px) {
 .anchor_nav_menus {
   display: block;
