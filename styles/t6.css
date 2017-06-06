@@ -106,6 +106,7 @@ footer {
 h4 {
   font-weight: bold;
   text-align: center;
+  text-shadow: 3px 3px 1px rgba(247, 249, 252, 0.4);
 }
 
 /* Larger than desktop */
