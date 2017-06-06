@@ -93,6 +93,36 @@ padding: 0;
 /*.centered {
   text-align: center;
 }*/
+
+
+/*_____________________ANCHOR MENU*/
+
+.anchor_nav_menus {
+  display: none;
+}
+.anchorMenu {
+  /*top: 1;*/
+  margin-top: 4rem;
+  width: 11%;
+  position: fixed;
+  box-shadow: 7px 7px 5px 0px rgba(100, 100, 100, 0.75);
+}
+.navMenu {
+  /*top: 0;*/
+  width: 11%;
+  position: fixed;
+  box-shadow: 7px 7px 5px 0px rgba(100, 100, 100, 0.75);
+}
+
+.anchorMenu a,
+.navMenu a {
+  float: left;
+  text-decoration: none;
+  color: black;
+  padding-left: 1rem;
+  font-variant: small-caps;
+}
+
 /*_____________________FOOTERS*/
 footer a {
   text-decoration: none;
@@ -242,6 +272,12 @@ footer a {
     padding: 0;
     margin: 4rem 0 0 -1rem;
   }
+}
+
+
+@media (min-width: 1300px) {
+.anchor_nav_menus {
+  display: block;
 }
   /*______________________________ scolors used
   #ce5a57
