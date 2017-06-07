@@ -20,15 +20,18 @@ body {
   font-size: 1.5rem;
 }
 
-/*//ania - added to reload page*/
-#reload {
+/*ania - added to provide sound rights and reload button*/
+#reload {   /*new game button*/
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/*ania - added to provide sound rights and reload button*/
+/*#reload input {
+  background-color: none;
+}*/
+
 .backToWork a {
   text-decoration: none;
   color: black;
@@ -36,21 +39,19 @@ body {
 }
 .backToWork {
   padding: 0.2rem;
-  margin-top: 1rem;
+  margin-top: 10rem;
   background-color: white;
   box-shadow: 2px 2px 2px 0px rgba(90, 90, 90, 0.75);
 }
 .footer {
-  margin-top: 15%;
+  margin-top: 1rem;;
 }
 .footer p {
   font-size: 0.6rem;
   color: gray;
 }
-#reload input {
-  background-color: #ccccff;
-}
 /*_____*/
+
 
 .board {
   display: flex;
@@ -88,5 +89,5 @@ div.hidden:hover {
 }
 
 div.marked, div.marked:hover {
-  background: no-repeat center/60% url("images/mark.svg") #ccccff;
+  background: no-repeat center/60% url("images/mark.svg") orange;
 }
