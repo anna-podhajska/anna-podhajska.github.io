@@ -109,7 +109,7 @@ padding: 0;
 .navMenu a {
   float: left;
   text-decoration: none;
-  color: black;
+  color: gray;
   padding-left: 1rem;
   font-variant: small-caps;
 }

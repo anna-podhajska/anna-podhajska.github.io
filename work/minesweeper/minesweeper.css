@@ -29,6 +29,17 @@ body {
 }
 
 /*ania - added to provide sound rights and reload button*/
+.backToWork a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+.backToWork {
+  padding: 0.2rem;
+  margin-top: 1rem;
+  background-color: white;
+  box-shadow: 2px 2px 2px 0px rgba(90, 90, 90, 0.75);
+}
 .footer {
   margin-top: 15%;
 }
