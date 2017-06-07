@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', startGame)
 
-var userWon = false;  //var for playing win sound once
+var userWon = false;  //ania: var for playing win sound once
 
 var board = {
   cells: [
@@ -24,47 +24,46 @@ function generateBoard(len) {   //ania: generating board above automatically
       board.cells.push({row:i, col:j, isMine:false, hidden:true});
     }
   }
-
   var mineIndex = Math.floor(Math.random()*(len*len));
   board.cells[mineIndex].isMine = true;
 }
 generateBoard(3);
 
+
 function startGame () {
-//_________ania:  waffle #6.3:
+//_________ania:  waffle ticket #6.3:
   for (var i = 0; i < board.cells.length; i++) {
     board.cells[i].surroundingMines = countSurroundingMines(board.cells[i]);
   }
   document.getElementsByClassName('board')[0].addEventListener('click', checkForWin);
   document.getElementsByClassName('board')[0].addEventListener('contextmenu', checkForWin);
-
-  // using 'for in' instead 'for' loop:
+//_______________
+  // the above can be done using 'for in' instead 'for' loop:
   // for (var i in board.cells) {
   //board.cells[i].surroundingMines = countSurroundingMines(board.cells[i]);
   // }
-//_______ANIA
+//________________
 
-  // Don't remove this function call: it makes the game work!
+  // the below was already set by eda
   lib.initBoard()
 }
 
 
 function checkForWin (evt) {
 
+  //ania: additional conditions added to play sound:
   if (userWon === true) {  //ania: if user already won and the sound played, do nothing
     return;
   }
-
-  if (evt.target.classList.contains('mine')) { //ania: inspired by EDA's lib
+  if (evt.target.classList.contains('mine')) { //ania: inspired by EDA's lib; searches for 'mine' in DOM
     document.getElementById("sound-loose").play();
   }
   else if (evt.currentTarget.className==="board") { //ania: evt.currentTarget.className is "board" taken from debugger
     document.getElementById("sound-click").play();
   }
 
-  //__ania #6.3:
- //assume that total mines and total correctly marked must be equal:
-
+  //________ania: waffle ticket #6.3:
+ //assume that total 'mines' and total 'correctly marked' (i.e. isMine&marked) must be equal:
   var totalMines = 0;
   var totalCorrectlyMarked = 0;
 
@@ -74,7 +73,7 @@ function checkForWin (evt) {
       totalCorrectlyMarked +=1; //ania: if a mine exists and is marked blue correctly. .Marked prop. is added by another function done by eda
     }
     else if (board.cells[i].hidden === true) {
-      return;  //ania: bug in waffle task a square can be both .isMarked set to true and .hidden set to true at the same time.
+      return;  //ania: bug in waffle task, a square can be both .isMarked=true and .hidden=true at the same time.
     }
 
     if (board.cells[i].isMine === true) {
@@ -90,7 +89,7 @@ function checkForWin (evt) {
 }
 
 function countSurroundingMines (cell) {
-  //_______ANIA:
+  //_______ania:
   var surrounding = lib.getSurroundingCells(cell.row, cell.col);
   var count = 0;
   for (var i = 0; i < surrounding.length; i++) {

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IMAGE AUTHOR ANNA PODHAJSKA -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D37272;}
+	.st1{fill:#DDB278;}
+	.st2{fill:#8BBCBA;}
+	.st3{fill:#818387;}
+	.st4{fill:#818387;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M384.5,14.6c33.1-24.1,78.9-17.8,102.1,14.2s15.3,77.4-17.9,101.5L384.5,14.6z"/>
+<polygon class="st1" points="414.1,54.9 427.6,73.7 450,103.8 400.2,114.9 "/>
+<polyline class="st2" points="3.9,494.1 337.4,0 424.4,0 397.4,150.9 0,500 "/>
+<polyline class="st3" points="5.6,496.2 367,321.9 397.4,150.1 228.5,295.9 5,495.2 "/>
+<polygon class="st1" points="240.6,410 114.3,498.1 87,456.9 367,321.9 "/>
+<path class="st3" d="M215.9,496.2H114.4c-1.4,0,43.6-28.2,44.8-29l0,0l0,0L215.9,496.2z"/>
+<ellipse class="st4" cx="376.5" cy="41.5" rx="23.7" ry="23.7"/>
+</svg>
