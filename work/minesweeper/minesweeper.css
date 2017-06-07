@@ -28,7 +28,7 @@ body {
   align-items: center;
 }
 
-/*ania - added to provide sound rights*/
+/*ania - added to provide sound rights and reload button*/
 .footer {
   margin-top: 15%;
 }
@@ -36,6 +36,10 @@ body {
   font-size: 0.6rem;
   color: gray;
 }
+#reload input {
+  background-color: #ccccff;
+}
+/*_____*/
 
 .board {
   display: flex;
@@ -43,7 +47,7 @@ body {
 }
 
 .board div {
-  color: green;
+  color: orange;
   font-size: 2rem;
   width: 75px;
   height: 75px;
@@ -73,5 +77,5 @@ div.hidden:hover {
 }
 
 div.marked, div.marked:hover {
-  background: no-repeat center/60% url("images/mark.svg") deepskyblue;
+  background: no-repeat center/60% url("images/mark.svg") #ccccff;
 }

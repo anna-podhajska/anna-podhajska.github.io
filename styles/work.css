@@ -1,0 +1,151 @@
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {
+   background: #eee;
+}
+body {
+  font-family: 'Bubbler One', sans-serif;
+}
+code {
+  padding: 2px 4px;
+  margin-left: 7px;
+  font-size: 80%;
+  color: #ce5a57;
+  background-color: #f9f2f4;
+  border-radius: 3px;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+h3 {
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+h4 {
+  font-size: 2.6rem;
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+a.goUp {
+  text-decoration: none;
+  color: red;
+  font-size: 1.3rem;
+}
+.blue {
+  color: #57a5a3;
+}
+.bigger {
+  font-weight: bold;
+  font-size: 130%
+}
+.mineSweeperLink {
+  text-align: center;
+}
+/* AsterixObelix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.AsterixObelix {
+}
+/* Asterix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.Asterix {
+  background-color: ;
+}
+/* Obelix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.Obelix {
+  background-color: rgba(247, 249, 252, 0.8);
+  padding-left: 1rem;
+}
+.pushDown {
+  padding-bottom: 5%;
+}
+.Obelix a {
+  text-decoration: none;
+  text-align: center;
+}
+/* footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer a {
+   text-decoration: none;
+   color: black;
+   margin-top: 4rem;
+ }
+footer {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.PushLeftRight {
+  padding: 0 3rem;
+}
+.pushUp {
+  margin-top: 60%;
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h3 {
+    font-weight: bold;
+  }
+  h4 {
+    font-size: auto;
+  }
+  h5 {
+    text-align: left;
+  }
+  html {
+    background-image: url(../images/parrot_left.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: -400px +200px;
+    background-attachment: fixed;
+
+  /*.AsterixObelix {
+    background-image: url(../images/parrot_left.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: -400px +200px;
+    background-attachment: fixed;*/
+  }
+  .mineSweeperLink {
+    text-align: left;
+  }
+  .Asterix {
+    text-align: right;
+  }
+}
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+h4 {
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 3px 1px rgba(247, 249, 252, 0.4);
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
+
+
+
+
+
+  /*my colors reference
+  rgba(255, 0, 0, 0.4)
+  #ce5a57
+  #57a5a3
+  #e1b16a
+  #777c76
+  #444c5c
+  #839aa4*/
