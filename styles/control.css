@@ -33,7 +33,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 p {
-  font-size: 120%;
+  text-align: justify;
 }
 h5 {
   text-align: center;
@@ -43,7 +43,6 @@ a.goUp {
   color: red;
   font-size: 1.3rem;
 }
-
 .orange {
   color: #eaa260;
 }
