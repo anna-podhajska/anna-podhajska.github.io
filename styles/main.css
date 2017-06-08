@@ -34,6 +34,9 @@ header a {
   font-size: 1em;
   padding-right: 4em;
 }
+a p { /*index blogs section description*/
+  text-align: justify;
+}
 .headerIcon img {
   height: 40px;
   margin-top: 0.5rem;
@@ -42,7 +45,6 @@ header a {
 .button {
   border-radius: 100px;
 }
-
 .highlight {
   font-style: italic;
   padding: 2rem;
