@@ -148,15 +148,19 @@
         <h5>Use cases</h5>
         <ol>
           <li>
+            Same as single quotes, plus:</code>
+          </li>
+          <li>
             Use to create objects with string elements, e.g.: <code> var myObjectDinner = {"soft drink", "salad", "fish"}</code>
             (JSON strings must be double quoted <a href="http://json.org/">source</a>)
           </li>
           <li>
-            Same as single quotes, accessing object properties with bracket notation, e.g. <code> objectCat["name"]</code>
-          </li>
-          <li>
-            Same as single quotes, string literals, e.g. <code>var shout = "I'm alive"</code>
-          </li>
+            Single and double quotes next to each other are not allowed in JS, hence the following code:
+            <code>'Quoth the raven:\n\t\"Nevermore!\"'</code></br>
+            to produce the following string:
+            <blockquote>Quoth the raven:</br>
+              &nbsp&nbsp&nbsp&nbsp&nbsp "Nevermore!"</blockquote>
+
         </ol>
 
         <a class="goUp" href="#">&uarr;</a>
