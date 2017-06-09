@@ -3,7 +3,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 html {
   font-size: 62.5%;
-  background: gray;
+  /*background: rgba(240, 240, 240);*/
 }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
@@ -26,8 +26,8 @@ h4 {
   line-height: 1.35; letter-spacing: -.08rem;
   font-size: 2.6rem;
   text-align: center;
-  font-weight: bold;
   text-align: center;
+  color: brown;
   /*text-shadow: 3px 3px 0.2px rgba(240, 240, 240, 0.4);*/
 }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem;
@@ -39,13 +39,11 @@ p {
   text-align: justify;
   margin-top: 0;
 }
-a.goUp {
-  text-decoration: none;
-  color: red;
-  font-size: 1.3rem;
-}
 .orange {
   color: #eaa260;
+}
+.brown {
+  color: brown;
 }
 
 /* AsterixObelix
@@ -64,7 +62,7 @@ a.goUp {
 /* Obelix
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .Obelix {
-  background-color: rgba(347, 349, 352, 0.8);
+  background-color: rgba(347, 349, 352, 0.9);
   padding: 1rem;
 }
 .pushDown {
@@ -73,8 +71,8 @@ a.goUp {
 /* footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer a {
-   text-decoration: none;
-   color: black;
+  text-decoration: none;
+  color: #222;
  }
 footer {
   text-align: center;
@@ -96,32 +94,39 @@ footer {
   h1 { font-size: 5.0rem; }
   h2 { font-size: 4.2rem; }
   h3 { font-size: 3.6rem; }
-  h4 { font-size: 3.0rem; }
+  h4 { font-size: 3.0rem;
+    color: #222;
+  }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 1.5rem; }
-h5 {
+  h5 {
   text-align: left;
   }
-html{
-  background-image: url(../images/eye_blue.svg);
+  html{
+  background-image: url(../images/pale_blue.svg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-position: -400px +500px;
+  background-repeat: space;
+  background-position: -0px +0px;
+  background-size: 12px;
   background-attachment: fixed;
   }
   .Asterix {
     text-align: right;
   }
+  .AsterixObelix {
+    background: none;
+  }
 }
 /* Larger than tablet */
 @media (min-width: 750px) {
-.Asterix, .Obelix {
-  padding-top: 5rem;
-}
-h4 {
-  text-align: right;
-}
-}
+  .Asterix, .Obelix {
+    padding-top: 5rem;
+  }
+  h4 {
+    text-align: right;
+  }
+  }
 
   /*
   * 'inspired' by Skeleton V2.0.4
