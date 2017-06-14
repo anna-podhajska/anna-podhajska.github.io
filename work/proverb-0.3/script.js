@@ -11,6 +11,7 @@ $(document).ready(function() {
     //  random background color:
      var newColor = pickRandomColor();
      $("body").css("background-color",newColor);
+     $(".pSource").css("color",newColor);
     // -------
     });
 });
@@ -27,7 +28,15 @@ function pickRandomColor() {
     "#666666",
     "#888888",
     "#999999",
-    "222222"
+    "#222222",
+    "#181818",
+    "#ce5a57",
+    "#57a5a3",
+    "#e1b16a",
+    "#777c76",
+    "#444c5c",
+    "#839aa4"
+
   ]
   var colorIndex = Math.floor(Math.random()*colors.length);
   return colors[colorIndex];
