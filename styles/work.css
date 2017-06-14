@@ -3,27 +3,52 @@ html {
   font-weight: 400;
 }
 body {
-  background: #616c6f;
-  color: #bfbfbf;
+  background: silver;
 }
 h4 {
-  color: white;
+  color: WhiteSmoke;
+  font-weight: bold;
+  text-align: center;
 }
 a {
   text-decoration: none;
-  color: #e1b16a;
+  transition: 0.8s;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #9E9ED0;
+}
+a:hover{
+  cursor: pointer;
+  color: black;
+}
+
+.container {
+  margin-top: 10%;
 }
 
 .Hellboy {
-  border: 5px solid #777c76;
-  border-radius: 2px;
+  color: #404040;
+  font-variant: small-caps;
+  padding: 0;
+  /*border: 5px solid white;
+  border-radius: 2px;*/
   overflow: hidden;
   margin: 0 2% 25px 0;
   /*position: relative;*/
-  background: #777c76;
+  background: white;
   box-shadow: 2px 2px 3px rgba(0,0,0,0.28);
   min-height: 200px;
+}
+.Hellboy .projectTitle {
+  background-color: gray;
+}
+.Hellboy .projectDescription{
+  padding-left: 4px;
+}
 
+.Hellboy h6 {
+  color: white;
+  padding-left: 2px;
 }
 
 /*scalable vector graphics subsite*/
@@ -32,9 +57,11 @@ a {
   padding-top: 100px;
 }
 /*.....*/
-
 .footerDiv {
   text-align: center;
+}
+.footerDiv a {
+  color: white;
 }
 /* Mobile first queries */
 
@@ -52,10 +79,7 @@ a {
 /* Larger than tablet */
 @media (min-width: 750px) {
 }
-h4 {
-  font-weight: bold;
-  text-align: center;
-}
+
 .footerDiv {
   margin-top: 30%;
 }
@@ -85,4 +109,5 @@ h4 {
   #444c5c
   #839aa4
   #88a3aa
-  #a5a999**/
+  #a5a999
+  #777c76**/
