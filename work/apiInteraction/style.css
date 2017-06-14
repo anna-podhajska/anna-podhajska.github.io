@@ -24,15 +24,24 @@ input {
 }
 .pSource {
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: black;
+}
+.pTranslation {
+  font-size: 1.8rem;
 }
 .goHome {
   margin-top: 10%;
 }
 
-media (min-width: 550px) {
-  .texts {
-      width: 60%;
+@media (min-width: 500px) {
+  .pSource {
+    font-size: : 1.7rem;
     }
+  .pTranslation {
+    font-size: 1.4rem;
+  }
+  .texts {
+    width: 60%;
+  }
 }
