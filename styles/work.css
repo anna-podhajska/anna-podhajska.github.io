@@ -1,88 +1,41 @@
-
-/* Shared
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 html {
-   background: #eee;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  font-weight: 400;
 }
 body {
-  font-family: 'Bubbler One', sans-serif;
-}
-code {
-  padding: 2px 4px;
-  margin-left: 7px;
-  font-size: 80%;
-  color: #ce5a57;
-  background-color: #f9f2f4;
-  border-radius: 3px;
-  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-}
-h3 {
-  padding-top: 2rem;
-  text-align: center;
-  font-weight: bold;
+  background: #616c6f;
+  color: #bfbfbf;
 }
 h4 {
-  font-size: 2.6rem;
-  text-align: center;
+  color: white;
 }
-h5 {
-  text-align: center;
-}
-a.goUp {
+a {
   text-decoration: none;
-  color: red;
-  font-size: 1.3rem;
-}
-.blue {
-  color: #57a5a3;
-}
-.bigger {
-  font-weight: bold;
-  font-size: 130%
-}
-.mineSweeperLink {
-  text-align: center;
-}
-/* AsterixObelix
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.AsterixObelix {
-}
-/* Asterix
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.Asterix {
-  background-color: ;
-}
-/* Obelix
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.Obelix {
-  background-color: rgba(247, 249, 252, 0.8);
-  padding-left: 1rem;
-}
-.pushDown {
-  padding-bottom: 5%;
-}
-.Obelix a {
-  text-decoration: none;
-  text-align: center;
-}
-/* footer
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-footer a {
-   text-decoration: none;
-   color: black;
-   margin-top: 4rem;
- }
-footer {
-  text-align: center;
-  padding-bottom: 2rem;
-}
-.PushLeftRight {
-  padding: 0 3rem;
-}
-.pushUp {
-  margin-top: 60%;
+  color: #e1b16a;
 }
 
+.Hellboy {
+  border: 5px solid #777c76;
+  border-radius: 2px;
+  overflow: hidden;
+  margin: 0 2% 25px 0;
+  /*position: relative;*/
+  background: #777c76;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.28);
+  min-height: 200px;
+
+}
+
+/*scalable vector graphics subsite*/
+.parrot-svg-show {
+  width: 50px;
+  padding-top: 100px;
+}
+/*.....*/
+
+.footerDiv {
+  text-align: center;
+}
 /* Mobile first queries */
 
 /* Larger than mobile */
@@ -90,35 +43,11 @@ footer {
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h3 {
-    font-weight: bold;
-  }
-  h4 {
-    font-size: auto;
-  }
-  h5 {
-    text-align: left;
-  }
-  html {
-    background-image: url(../images/parrot_pale.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-position: -400px +200px;
-    background-attachment: fixed;
-
-  /*.AsterixObelix {
-    background-image: url(../images/parrot_left.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-position: -400px +200px;
-    background-attachment: fixed;*/
-  }
   .mineSweeperLink {
     text-align: left;
-  }
-  .Asterix {
-    text-align: right;
-  }
+}
+.footerDiv {
+  margin-top: 40%;
 }
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -126,11 +55,16 @@ footer {
 h4 {
   font-weight: bold;
   text-align: center;
-  text-shadow: 3px 3px 1px rgba(247, 249, 252, 0.4);
 }
-
+.footerDiv {
+  margin-top: 30%;
+}
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+  .footerDiv {
+    margin-top: 20%;
+  }
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
@@ -148,4 +82,7 @@ h4 {
   #e1b16a
   #777c76
   #444c5c
-  #839aa4*/
+  #444c5c
+  #839aa4
+  #88a3aa
+  #a5a999**/
