@@ -45,7 +45,9 @@ a:hover{
 .red {
   color: #a31930;
 }
-
+.brown {
+  color: #e2e0cf;
+}
 footer {
   text-align: center;
   margin: 3rem;
