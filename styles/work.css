@@ -1,12 +1,11 @@
 html {
-  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
   font-weight: 400;
 }
 body {
   background: silver;
 }
 h4 {
-  color: WhiteSmoke;
+  color: #666666;
   font-weight: bold;
   text-align: center;
 }
@@ -28,7 +27,8 @@ a:hover{
 
 .Hellboy {
   color: #404040;
-  font-variant: small-caps;
+  border-radius: 3px;
+  /*font-variant: small-caps;*/
   padding: 0;
   /*border: 5px solid white;
   border-radius: 2px;*/
@@ -40,7 +40,7 @@ a:hover{
   min-height: 200px;
 }
 .Hellboy .projectTitle {
-  background-color: gray;
+  background-color: #9E9ED0;
 }
 .Hellboy .projectDescription{
   padding-left: 4px;
@@ -49,6 +49,7 @@ a:hover{
 .Hellboy h6 {
   color: white;
   padding-left: 2px;
+  font-size: 110%;
 }
 
 /*scalable vector graphics subsite*/
@@ -61,7 +62,7 @@ a:hover{
   text-align: center;
 }
 .footerDiv a {
-  color: white;
+  color: #666666;
 }
 /* Mobile first queries */
 
@@ -100,14 +101,16 @@ a:hover{
 
 
   /*my colors reference
-  rgba(255, 0, 0, 0.4)
-  #ce5a57
-  #57a5a3
-  #e1b16a
-  #777c76
-  #444c5c
-  #444c5c
-  #839aa4
-  #88a3aa
-  #a5a999
-  #777c76**/
+  "#333333",
+  "#444444",
+  "#666666",
+  "#888888",
+  "#999999",
+  "#222222",
+  "#181818",
+  "#ce5a57",
+  "#57a5a3",
+  "#e1b16a",
+  "#777c76",
+  "#444c5c",
+  "#839aa4"*/
