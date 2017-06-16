@@ -1,16 +1,13 @@
 html {
+}
+body {
+  background: #343338;
   font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
   line-height: 1.5;
   font-size: 15px;
   font-weight: 400;
 }
-body {
-  background: #343338;
-}
-h3 {
-  margin: -2rem 0 0 0;
-  padding: 0;
-}
+
 img {
   width: 100%;
   /*position: absolute;*/
@@ -18,18 +15,20 @@ img {
   right: 0;
   left: 0;
   bottom: 0;
-  border: 0 !important;
+  border: 0;
   z-index: 1
 }
-
+.indexBlogLink h4 {
+  font-size: 1rem;
+}
 a {
   text-decoration: none;
   color: #999999;
   transition: 0.8s;
-  font-size: 1rem;
+  font-size: 90%;
   margin: 4px 0 12px 0;
   text-overflow: ellipsis;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 a:hover{
     cursor: pointer;
@@ -38,6 +37,12 @@ a:hover{
 /*navigation*/
 .anchor_nav_menus {
   display: none;
+  position: fixed;
+  margin: 10rem 0 0 2rem;
+}
+.anchor_nav_menus a {
+  color: #706d78;
+  font-size: 1.6rem;
 }
 /*h3::first-letter{
   color: #e2e0cf;
@@ -46,11 +51,22 @@ a:hover{
   color: #a31930;
 }
 .brown {
-  color: #e2e0cf;
+  color: #999999;
 }
+/*.section-description {
+  max-height: 3rem;
+}*/
 footer {
   text-align: center;
-  margin: 3rem;
+}
+.FooterBox {
+  border: 5px solid #2F2F31;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #2F2F31;
+  min-height: 10%;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .a-backTop {
   font-size: 0.7rem;
@@ -62,18 +78,18 @@ footer {
   padding-left: 11%;
 }
 /*navi end*/
-.container {
-  padding: 0 10px;
-  margin-top: -3rem;
+.Mycontainer {
+  margin-top: 2%;
+  padding: 0 2%;
 }
 .Hellboy {
   border: 5px solid #2F2F31;
   border-radius: 2px;
-  overflow: hidden;
-  margin: 0 2% 25px 0;
+  /*overflow: hidden;*/
+  margin: 0 0% 25px 0;
   /*position: relative;*/
   background: #2F2F31;
-  box-shadow: 2px 2px 3px rgba(0,0,0,0.28)
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.28);
 }
 
 /* Larger than mobile */
@@ -81,27 +97,41 @@ footer {
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-  h3 {
+  h4 {
     letter-spacing: 0;
   }
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
-
+@media (min-width: 750px) {
+  .Hellboy {
+    max-width: 45%;
+    display: inline-block;
+    margin: 0 2% 25px 0;
+  }
+  .Mycontainer {
+    margin-top: 2rem;
+    padding-left: 5%
+  }
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
+  .Mycontainer {
+    margin-top: 2rem;
+    padding-left: 15%
+  }
   /*navigation*/
   .anchor_nav_menus {
     display: block;
-    position: fixed;
-    margin: 10rem 0 0 2rem;
   }
-  .container {
-    margin-top: 2rem;
-  }
+
   footer {
     display: none;
   }
 }
+
+@media (min-width: 1120px) {
+  .Hellboy {
+    max-width: 30%;
+  }

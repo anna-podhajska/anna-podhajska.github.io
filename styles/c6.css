@@ -102,7 +102,7 @@ footer {
   h5 {
   text-align: left;
   }
-  html{
+  /*html{
   background-image: url(../images/pale_blue.svg);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -110,7 +110,7 @@ footer {
   background-position: -0px +0px;
   background-size: 12px;
   background-attachment: fixed;
-  }
+  }*/
   .Asterix {
     text-align: right;
   }

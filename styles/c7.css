@@ -1,0 +1,38 @@
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {}
+body {}
+
+/* AsterixObelix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* Asterix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Obelix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+
+  /*my colors reference
+  rgba(255, 0, 0, 0.4)
+  #ce5a57
+  #57a5a3
+  #e1b16a
+  #777c76
+  #444c5c
+  #839aa4*/
