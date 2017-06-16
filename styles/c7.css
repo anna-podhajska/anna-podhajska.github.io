@@ -1,31 +1,86 @@
 
 /* Shared
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-html {}
-body {}
+–––––––––––––––––––––––––––––––––––– */
+html {
+}
+body {
+  text-align: center;
+}
+.quote {
+  font-style: italic;
+  text-align: center;
+  font-size: 110%;
+  margin-bottom: -1rem;
+}
+.small-caps {
+  font-variant: small-caps;
+}
+.header {
+  /*border: 1px solid red;*/
+  width: 100%;
+  text-align: center;
+  margin-top: 0%;
+}
+.title {
+  font-size: 6rem;
+}
+.bookSignature {
+  font-size: 80%;
+  margin: 15% 0 5% 0;
+}
+.brown {
+  color: #947345;
+}
+.big {
+  font-size: 10rem;
+}
+/* hellboy
+–––––––––––––––––––––––––––––––––––––– */
+.hellboy {
+}
 
-/* AsterixObelix
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Images
+––––––––––––––––––––––––––––––––––––– */
 
 
-/* Asterix
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Obelix
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 
 /* footer
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+––––––––––––––––––––––––––––––––––––––– */
+footer {
+  text-align: center;
+}
+.FooterBox {
+  border: 5px solid #2F2F31;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #2F2F31;
+  min-height: 10%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.FooterBox a {
+  text-decoration: none;
+  color: #947345;
+  line-height: 3.6;
+}
 /* Mobile first queries */
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+}
 
 /* Larger than phablet */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+  .FooterBox a {
+    line-height: 1.6;
+  }
+}
 
 
   /*my colors reference

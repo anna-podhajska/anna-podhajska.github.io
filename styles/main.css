@@ -223,7 +223,7 @@ footer a {
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    /*background-color:;*/
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -231,8 +231,9 @@ footer a {
 }
 .contact-button a {
   text-decoration: none;
-  font-size: 20px;
-  color: #57a5a3;
+  font-size: 15px;
+  color: #1eaedb;
+  padding-bottom: 0;
 }
 .contact-button:hover, a:hover {
     opacity: 0.7;
