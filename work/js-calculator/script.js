@@ -9,6 +9,7 @@ $("table").click(function (event) {
     case "equals":
       var result = eval(equation);
       $("#result").html(result);
+      equation = "";
       break;
 
     case "AC":

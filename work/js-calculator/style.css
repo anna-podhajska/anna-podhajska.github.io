@@ -6,7 +6,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   font-variant: small-caps;
-  width: 80%;
+  width: 90%;
 }
 .calc-table td {
   height: 100px;
@@ -28,6 +28,7 @@ th {
 }
 #result {
   border-radius: 3px 3px 0 0;
+  font-size: 2rem;
 }
 
 td:hover {
@@ -35,14 +36,21 @@ td:hover {
   color: white;
 }
 
-
+.homeLink {
+  margin-top: 10%;
+  text-align: center;
+}
+.homeLink img {
+  width: 30px;
+}
 @media (min-width: 750px) {
   table {
-    max-width: 50%;
+    width: auto;
   }
 }
 @media (min-width: 1125px) {
   table {
-    max-width: 33.3%;
+    /*max-width: 33.3%;*/
+    width: auto;
   }
 }
