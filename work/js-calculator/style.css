@@ -36,9 +36,8 @@ td:hover {
   background-color: #719390;
   color: white;
 }
-
 #AC:hover, #CE:hover {
-
+  color: red;
 }
 
 .homeLink {
@@ -49,34 +48,23 @@ td:hover {
   width: 30px;
 }
 
-
-/*testing disply for retina*/
 @media
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   table {
     width: 100%;
-    font-size: 2rem;
   }
-  .calc-table td {
-      height: 200px;
-    }
-    #equation {
-      height: 70px;
-    }
-    #result {
-      height: 130px;
-    }
+}
+
+@media (min-width: 750px) {
+  table {
+    width: 70%;
+  }
 }
 
 @media (min-width: 1125px) {
   table {
-    /*max-width: 33.3%;*/
+    max-width: 33.3%;
     width: auto;
-    font-size: 1rem;
   }
-  .calc-table td {
-      height: 100px;
-    }
-
 }
