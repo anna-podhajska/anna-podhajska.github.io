@@ -1,14 +1,12 @@
 html {
   background-color: #719390;
 }
-.calc-box {
-
-}
 table {
   align-self: center;
   margin-left: auto;
   margin-right: auto;
   font-variant: small-caps;
+  width: 80%;
 }
 .calc-table td {
   height: 100px;
@@ -38,6 +36,13 @@ td:hover {
 }
 
 
-@@media (min-width: 750px)
-
+@media (min-width: 750px) {
+  table {
+    max-width: 50%;
+  }
+}
+@media (min-width: 1125px) {
+  table {
+    max-width: 33.3%;
+  }
 }
