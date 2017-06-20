@@ -48,7 +48,7 @@ td:hover {
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   table {
-    height: 120%;
+    width: 100%;
   }
 }
 
