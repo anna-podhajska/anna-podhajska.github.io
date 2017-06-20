@@ -49,8 +49,10 @@ td:hover {
 (min-resolution: 192dpi) {
   table {
     width: 100%;
-    height: 200%;
   }
+  .calc-table td {
+      height: 200px;
+    }
 }
 
 @media (min-width: 1125px) {
@@ -58,7 +60,8 @@ td:hover {
     /*max-width: 33.3%;*/
     width: auto;
   }
-  th {
-    height: 200px;
-  }
+  .calc-table td {
+      height: 100px;
+    }
+
 }
