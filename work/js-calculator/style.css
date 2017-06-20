@@ -29,6 +29,7 @@ th {
 #result {
   border-radius: 3px 3px 0 0;
   font-size: 2rem;
+  height: 70px;
 }
 
 td:hover {
@@ -44,6 +45,8 @@ td:hover {
   width: 30px;
 }
 
+
+/*testing disply for retina*/
 @media
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
@@ -55,9 +58,11 @@ td:hover {
       height: 200px;
     }
     #equation {
-      height: 50px;
+      height: 30px;
     }
-
+    #result {
+      height: 70px;
+    }
 }
 
 @media (min-width: 1125px) {
