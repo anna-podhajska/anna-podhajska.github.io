@@ -1,10 +1,6 @@
 html {
   background-color: #719390;
 }
-.calc-box {
-  width: auto;
-  border: 1px solid red;
-}
 table {
   align-self: center;
   margin-left: auto;
@@ -53,6 +49,7 @@ td:hover {
 (min-resolution: 192dpi) {
     table {
       width: 100%;
+      height: auto;
     }
 }
 
