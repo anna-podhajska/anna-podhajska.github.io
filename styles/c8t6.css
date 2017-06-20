@@ -7,8 +7,6 @@ body {
 .quote {
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
-  font-size: 110%;
-  margin-bottom: -1rem;
 }
 .small-caps {
   font-variant: small-caps;
@@ -19,14 +17,25 @@ body {
 }
 .bookSignature {
   font-size: 80%;
-  margin: 10% 0 5% 0;
+  margin: 3% 0 5% 0;
 }
 .brown {
   color: #947345;
 }
+.red {
+  color: #ce5a57;
+}
+.resourceLinks a {
+  text-decoration: none;
+  color: #947345;
+}
+.resourceLinks a:hover {
+  color: #ce5a57
+}
 .big {
   font-size: 10rem;
 }
+
 /* hellboy
 –––––––––––––––––––––––––––––––––––––– */
 .hellboy {}
@@ -34,12 +43,8 @@ body {
 /* Images
 ––––––––––––––––––––––––––––––––––––– */
 
-header {
-text-align: center;
-}
 .headerImg {
   max-width: 100%;
-  margin-top: -10%;
 }
 
 /* footer
@@ -75,6 +80,19 @@ footer {
 @media (min-width: 750px) {
   .FooterBox a {
     line-height: 1.6;
+  }
+  .headerImg {
+    /*max-width: 800px;*/
+    margin-top: -5%
+  }
+}
+
+@media (min-width: 1125px) {
+  .FooterBox a {
+    line-height: 1.6;
+  }
+  .headerImg {
+    margin-top: -10%;
   }
 }
 
