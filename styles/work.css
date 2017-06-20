@@ -63,11 +63,18 @@ a:hover{
   padding-top: 100px;
 }
 /*.....*/
-.footerDiv {
+footer {
   text-align: center;
 }
-.footerDiv a {
-  color: #666666;
+.FooterBox {
+  border: 5px solid #2F2F31;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #2F2F31;
+  min-height: 10%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  line-height: 4rem;
 }
 /* Mobile first queries */
 
@@ -83,16 +90,15 @@ a:hover{
   margin-top: 40%;
 }
 /* Larger than tablet */
-@media (min-width: 750px) {
-}
+@media (min-width: 750px) {}
 
 .footerDiv {
   margin-top: 30%;
 }
 /* Larger than desktop */
 @media (min-width: 1000px) {
-  .footerDiv {
-    margin-top: 20%;
+  .FooterBox {
+    line-height: 2rem;
   }
 }
 
