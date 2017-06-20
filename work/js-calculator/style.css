@@ -64,6 +64,7 @@ td:hover {
   table {
     /*max-width: 33.3%;*/
     width: auto;
+    font-size: 1rem;
   }
   .calc-table td {
       height: 100px;
