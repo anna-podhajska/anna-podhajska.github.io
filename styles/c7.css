@@ -7,13 +7,11 @@ body {
 .quote {
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
-  font-size: 110%;
-  margin-bottom: -1rem;
+  font-size: 1.8rem;
 }
 .small-caps {
   font-variant: small-caps;
 }
-
 .title {
   font-size: 6rem;
 }
@@ -23,6 +21,12 @@ body {
 }
 .brown {
   color: #947345;
+}
+.lazur {
+  color: #a9d3cf;
+}
+.lazur2 {
+  color: #719390;
 }
 .big {
   font-size: 10rem;
