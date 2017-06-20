@@ -14,7 +14,7 @@ a {
   transition: 0.8s;
   text-overflow: ellipsis;
   overflow: hidden;
-  color: #9E9ED0;
+  color: #aec3c1;
 }
 a:hover{
   cursor: pointer;
@@ -40,7 +40,7 @@ a:hover{
   min-height: 200px;
 }
 .Hellboy .projectTitle {
-  background-color: #9E9ED0;
+  background-color: #ce5a57;
 }
 .Hellboy .projectDescription{
   padding-left: 4px;
