@@ -49,10 +49,15 @@ td:hover {
 (min-resolution: 192dpi) {
   table {
     width: 100%;
+    font-size: 2rem;
   }
   .calc-table td {
       height: 200px;
     }
+    #equation {
+      height: 50px;
+    }
+
 }
 
 @media (min-width: 1125px) {
