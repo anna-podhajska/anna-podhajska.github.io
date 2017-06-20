@@ -58,4 +58,7 @@ td:hover {
     /*max-width: 33.3%;*/
     width: auto;
   }
+  th {
+    height: 200px;
+  }
 }
