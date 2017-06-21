@@ -1,5 +1,7 @@
 html {
-  background-color: #719390;
+  background-color: #4d4b51;
+  /*font-family: monospace; */
+  font-family: sans-serif;
 }
 table {
   align-self: center;
@@ -33,11 +35,16 @@ th {
 }
 
 td:hover {
-  background-color: #719390;
+  background-color: #4d4b51;
   color: white;
 }
 #AC:hover, #CE:hover {
-  color: red;
+  color: #c11935;
+}
+#divide:hover, #minus:hover, #plus:hover,
+#multiply:hover, #equals:hover, #dot:hover   {
+  color: orange;
+  font-size: 130%;
 }
 
 .homeLink {
@@ -47,9 +54,9 @@ td:hover {
 .homeLink img {
   width: 30px;
 }
-
-
-
+img:hover {
+  width: 50px;
+}
 
 /*DIAPLAY*/
 /* ----------- iPhone 6 ----------- */
