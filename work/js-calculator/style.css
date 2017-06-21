@@ -27,6 +27,8 @@ th {
 }
 #equation {
   height: 30px;
+  font-size: 1.2rem;
+  font-weight: lighter;
 }
 #result {
   border-radius: 3px 3px 0 0;

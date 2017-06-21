@@ -7,15 +7,26 @@ $("table").click(function (event) {
   switch(event.target.id){
 
     case "equals":
+
+      try {
+        eval(equation);
+      } catch (e) {
+          if (e instanceof SyntaxError) {
+              alert("invalid expression");
+          }
+      }
+
       var result = eval(equation);
       $("#result").html(result);
       equation = "";
+
       break;
 
     case "AC":
       equation = "";
       $("#result").html("0");
       break;
+
 
     case "CE":
       equation = equation.substr(0, equation.length-1);
