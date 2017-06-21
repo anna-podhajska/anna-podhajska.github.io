@@ -9,17 +9,14 @@ $("table").click(function (event) {
     case "equals":
 
       try {
-        eval(equation);
-      } catch (e) {
-          if (e instanceof SyntaxError) {
-              alert("invalid expression");
-          }
+        var result = eval(equation);
+        $("#result").html(result);
+        equation = "";
+      } catch (exeption) {
+        if (exeption instanceof SyntaxError) {
+            alert("invalid expression");
+        }
       }
-
-      var result = eval(equation);
-      $("#result").html(result);
-      equation = "";
-
       break;
 
     case "AC":
@@ -74,6 +71,11 @@ $("table").click(function (event) {
         equation += event.target.innerText;
       }
       break;
+
+  }
+
+  if (equation.length > 35 ) {
+    alert("really? hey, shorter equation is actionable");
   }
 
   $("#equation").html(equation);
