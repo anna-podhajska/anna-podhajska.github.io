@@ -87,7 +87,7 @@ $("table").click(function (event) {
 
 $("#moreFun").click(function () {
 
-  play();
+  // play();
 
   $(".op1").hover(function(){
       $(this).css('background-color','#5c9c99');
@@ -126,7 +126,7 @@ $("#moreFun").click(function () {
 
 $("#lessFun").click(function () {
 
-  play();
+  // play();
 
   $(".op1").hover(function(){
       $(this).css('background-color','');
