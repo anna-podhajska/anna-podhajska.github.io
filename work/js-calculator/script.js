@@ -88,11 +88,11 @@ $("#moreFun").click(function () {
 
   // buttons color change
   $("#moreFun").css('background-color', '#f1c689');
-  $("#lessFun").css('background-color', '#3e4555');
+  $("#lessFun").css('background-color', '#4b5160');
 
   $("th").css('font-family', 'Playfair Display, serif');
-  $("th").css('background-color', '#3e4555');
-  $("th").css('color','lightgrey');
+  $("th").css('background-color', '#4b5160');
+  $("th").css('color','#f1c689');
 
 
   $(".op1").hover(function(){
@@ -117,7 +117,7 @@ $("#moreFun").click(function () {
 $("#lessFun").click(function () {
 
   $("#lessFun").css('background-color', '#f1c689');
-  $("#moreFun").css('background-color', '#3e4555');
+  $("#moreFun").css('background-color', '#4b5160');
 
   $(".op1").css('background-color','');
   $(".op1").css('background-color', '');
@@ -137,10 +137,10 @@ $("#lessFun").click(function () {
 
 
   // sound
-  function play() {
-    var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'sounds/click.wav');
-    audioElement.play();
+  // function play() {
+  //   var audioElement = document.createElement('audio');
+  //       audioElement.setAttribute('src', 'sounds/click.wav');
+  //   audioElement.play();
     }
   // sound
 
