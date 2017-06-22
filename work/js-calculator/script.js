@@ -12,18 +12,18 @@ $("table").click(function (event) {
         var result = eval(equation);
         $("#result").html(result);
         equation = "";
-      } catch (exeption) {
-        if (exeption instanceof SyntaxError) {
-            alert("invalid expression");
-        }
-      }
+        } catch (exeption) {
+            if (exeption instanceof SyntaxError) {
+              alert("invalid expression");
+            }
+          }
+      $('#equation').html("");
       break;
 
     case "AC":
       equation = "";
       $("#result").html("0");
       break;
-
 
     case "CE":
       equation = equation.substr(0, equation.length-1);
@@ -71,8 +71,7 @@ $("table").click(function (event) {
         equation += event.target.innerText;
       }
       break;
-
-  }
+  }  // switch end
 
   if (equation.length > 35 ) {
     alert("really? hey, shorter equation is actionable");
