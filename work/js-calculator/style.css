@@ -1,5 +1,5 @@
 html {
-  background-color: #4d4b51;
+  background-color: #3e4555;
   /*font-family: monospace; */
   font-family: sans-serif;
 }
@@ -33,21 +33,46 @@ th {
 #result {
   border-radius: 3px 3px 0 0;
   font-size: 2rem;
-  height: 70px;
+  height: 60px;
 }
 
 td:hover {
-  background-color: #4d4b51;
+  background-color: #3e4555;
   color: white;
 }
-#AC:hover, #CE:hover {
-  color: #c11935;
-}
+
+#AC:hover { color: #c11935}
+#CE:hover { color: #c11935}
+
+
 #divide:hover, #minus:hover, #plus:hover,
 #multiply:hover, #equals:hover, #dot:hover   {
-  color: orange;
-  font-size: 130%;
+  color: #d18434;
+  font-size: 140%;
 }
+
+/*fun box*/
+.fun-box {
+  text-align: center;
+  width: 100%;
+}
+#lessFun, #moreFun {
+  padding-top: 2px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2.1rem;
+  width: 80px;
+  background-color: lightgray;
+  font-size: 0.8rem;
+  border-radius: 3px 3px 0 0;
+}
+#moreFun {
+  margin-top: 2px;
+  background-color: #cd5957;
+  border-radius: 0 0 3px 3px;
+}
+/*-------*/
 
 .homeLink {
   margin-top: 10%;
@@ -108,3 +133,10 @@ img:hover {
 @media (min-width: 750px) {}
 
 @media (min-width: 1125px) {}
+
+
+#3e4555;
+#4d4b51;
+#c11935;
+#857877;
+#dea95e;

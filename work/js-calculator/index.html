@@ -4,12 +4,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Crushed|Playfair+Display" rel="stylesheet">
 </head>
 
 <body>
 
 
-  <!-- <div class="calc-box"> -->
     <table class="calc-table">
 
       <thead>
@@ -26,22 +26,22 @@
       <tr>
         <td id="AC"> AC </td>
         <td id="CE"> CE </td>
-        <td id="multiply"> * </td>
-        <td id="divide"> / </td>
+        <td id="multiply" class="op1"> * </td>
+        <td id="divide" class="op1"> / </td>
       </tr>
 
       <tr>
         <td id="7"> 7 </td>
         <td id="8"> 8 </td>
         <td id="9"> 9 </td>
-        <td id="minus"> - </td>
+        <td id="minus" class="op1"> - </td>
       </tr>
 
       <tr>
         <td id="4"> 4 </td>
         <td id="5"> 5 </td>
         <td id="6"> 6 </td>
-        <td id="plus"> + </td>
+        <td id="plus" class="op1"> + </td>
       </tr>
 
       <tr>
@@ -58,7 +58,13 @@
       </tbody>
 
     </table>
-  <!-- </div> -->
+
+
+
+  <div class="fun-box">
+    <div id="lessFun"> classic </div>
+    <div id="moreFun"> color </div>
+  </div>
 
   <div class="homeLink">
     <a href="../../blog/a-work.html"><img src="images/home.png"></a>

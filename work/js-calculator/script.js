@@ -81,5 +81,97 @@ $("table").click(function (event) {
   $("#equation").html(equation);
 })
 
+
+
+
+// COLOR VERSIONS ON
+
+$("#moreFun").click(function () {
+
+  play();
+
+  $(".op1").hover(function(){
+      $(this).css('background-color','#5c9c99');
+    }, function() {
+      $(this).css('background-color', '#79a5a3');
+    }
+  );
+
+  $("#AC, #CE").hover(function(){
+    $(this).css('background-color','#dea95e');
+    }, function() {
+    $(this).css('background-color','#f1c689');
+  });
+
+  $("#equals").hover(function() {
+
+    $(this).css('background-color', '#3e4555');
+    }, function() {
+    $(this).css('background-color', '#cd5957');
+  });
+
+  $("th").hover(function(){
+    $(this).css('font-family', 'Playfair Display, serif');
+    $(this).css('background-color','#f1c689');
+    }, function() {
+    $(this).css('background-color', '#3e4555');
+  });
+
+  $("#equation").hover(function(){
+    $(this).css('color', 'white')
+  });
+
+});
+
+// COLOR VERSIONS OFF
+
+$("#lessFun").click(function () {
+
+  play();
+
+  $(".op1").hover(function(){
+      $(this).css('background-color','');
+    }, function() {
+      $(this).css('background-color', '');
+    }
+  );
+
+  $("#AC, #CE").hover(function(){
+    $(this).css('background-color','');
+    }, function() {
+    $(this).css('background-color','');
+  });
+
+  $("#equals").hover(function() {
+
+    $(this).css('background-color', '');
+    }, function() {
+    $(this).css('background-color', '');
+  });
+
+  $("th").hover(function(){
+    $(this).css('font-family', '');
+    $(this).css('background-color','');
+    }, function() {
+    $(this).css('background-color', '');
+  });
+
+  $("#equation").hover(function(){
+    $(this).css('', '')
+  });
+
+  });
+
+
+  // sound
+  function play() {
+    var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'sounds/click.wav');
+    audioElement.play();
+    }
+  // sound
+
+
+
 // code code
 })
