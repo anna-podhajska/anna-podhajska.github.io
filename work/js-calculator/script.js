@@ -82,18 +82,16 @@ $("table").click(function (event) {
 
 
 
-// COLOR VERSIONS ON
+// MY COLOR VERSIONS ON:
 
 $("#moreFun").click(function () {
 
-  // buttons color change
   $("#moreFun").css('background-color', '#f1c689');
   $("#lessFun").css('background-color', '#4b5160');
 
   $("th").css('font-family', 'Playfair Display, serif');
   $("th").css('background-color', '#4b5160');
   $("th").css('color','#f1c689');
-
 
   $(".op1").hover(function(){
       $(this).css('background-color','#5c9c99');
@@ -108,8 +106,6 @@ $("#moreFun").click(function () {
     $(this).css('background-color','#f1c689');
   });
 
-    // play();
-
 });
 
 // COLOR VERSIONS CLEANUP:
@@ -120,10 +116,8 @@ $("#lessFun").click(function () {
   $("#moreFun").css('background-color', '#4b5160');
 
   $(".op1").css('background-color','');
-  $(".op1").css('background-color', '');
   $('.op1').unbind();
 
-  $("#AC, #CE").css('background-color','');
   $("#AC, #CE").css('background-color','');
   $("#AC, #CE").unbind();
 
@@ -134,7 +128,6 @@ $("#lessFun").click(function () {
   $("#equation").css('color', '');
 
   });
-
 
   // sound
   // function play() {
