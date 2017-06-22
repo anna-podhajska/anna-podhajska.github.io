@@ -55,23 +55,29 @@ td:hover {
 .fun-box {
   text-align: center;
   width: 100%;
+  height: 2.1rem;
 }
 #lessFun, #moreFun {
-  padding-top: 2px;
+  padding-top: 0.8rem;
   margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
   height: 2.1rem;
-  width: 80px;
-  background-color: lightgray;
+  width: 200px;
+  background-color: #4b5160;
   font-size: 0.8rem;
   border-radius: 3px 3px 0 0;
+  display: inline-block;
 }
 #moreFun {
   margin-top: 2px;
-  background-color: #cd5957;
   border-radius: 0 0 3px 3px;
 }
+
+#lessFun:hover, #moreFun:hover {
+  background-color: #cd5957;
+}
+
 /*-------*/
 
 .homeLink {
@@ -135,8 +141,8 @@ img:hover {
 @media (min-width: 1125px) {}
 
 
-#3e4555;
+/*#3e4555;
 #4d4b51;
 #c11935;
 #857877;
-#dea95e;
+#dea95e;*/

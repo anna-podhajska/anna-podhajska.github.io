@@ -82,12 +82,11 @@ $("table").click(function (event) {
 
 
 
-
 // COLOR VERSIONS ON
 
 $("#moreFun").click(function () {
 
-  // play();
+  // buttons color change
 
   $(".op1").hover(function(){
       $(this).css('background-color','#5c9c99');
@@ -102,31 +101,23 @@ $("#moreFun").click(function () {
     $(this).css('background-color','#f1c689');
   });
 
-  $("#equals").hover(function() {
-
-    $(this).css('background-color', '#3e4555');
-    }, function() {
-    $(this).css('background-color', '#cd5957');
-  });
-
   $("th").hover(function(){
     $(this).css('font-family', 'Playfair Display, serif');
     $(this).css('background-color','#f1c689');
     }, function() {
     $(this).css('background-color', '#3e4555');
-  });
-
-  $("#equation").hover(function(){
     $(this).css('color', 'white')
   });
 
+
+
+    // play();
+
 });
 
-// COLOR VERSIONS OFF
+// COLOR VERSIONS CLEANUP:
 
 $("#lessFun").click(function () {
-
-  // play();
 
   $(".op1").hover(function(){
       $(this).css('background-color','');
@@ -141,18 +132,12 @@ $("#lessFun").click(function () {
     $(this).css('background-color','');
   });
 
-  $("#equals").hover(function() {
-
-    $(this).css('background-color', '');
-    }, function() {
-    $(this).css('background-color', '');
-  });
-
   $("th").hover(function(){
     $(this).css('font-family', '');
     $(this).css('background-color','');
     }, function() {
     $(this).css('background-color', '');
+    $(this).css('color', '')
   });
 
   $("#equation").hover(function(){
