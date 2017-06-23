@@ -7,23 +7,20 @@ table {
   align-self: center;
   margin-left: auto;
   margin-right: auto;
-  font-variant: small-caps;
-  /*width: 100%;*/
+  /*font-variant: small-caps;*/
 }
 .calc-table td {
   height: 100px;
   width: 100px;
   color: black;
   background-color: lightgrey;
-  /*border: 1px solid black;*/
   text-align: center;
 }
 th {
   height: 100px;
   width: 400px;
   color: black;
-  /*border: 1px solid black;*/
-  background-color: white;
+  background-color: lightgrey;
 }
 #equation {
   height: 30px;
@@ -39,12 +36,13 @@ th {
 td:hover {
   background-color: #3e4555;
   color: white;
+  font-size: 120%;
 }
 
-#AC:hover { color: #c11935}
-#CE:hover { color: #c11935}
-
-
+#AC:hover,
+#CE:hover {
+  color: #c11935;
+}
 #divide:hover, #minus:hover, #plus:hover,
 #multiply:hover, #equals:hover, #dot:hover   {
   color: #d18434;

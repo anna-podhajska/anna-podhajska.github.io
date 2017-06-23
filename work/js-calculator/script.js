@@ -14,18 +14,21 @@ $("table").click(function (event) {
         equation = "";
         } catch (exeption) {
             if (exeption instanceof SyntaxError) {
-              alert("invalid expression");
+              invExpression();
             }
-          }
+          };
       $('#equation').html("");
       break;
 
     case "AC":
       equation = "";
+      invExpressionClear ();
       $("#result").html("0");
+
       break;
 
     case "CE":
+      $("#result").css('color', 'black');
       equation = equation.substr(0, equation.length-1);
       //return the same str minus last element
       break;
@@ -80,9 +83,19 @@ $("table").click(function (event) {
   $("#equation").html(equation);
 })
 
+//Function invalid expression used in "try"
+function invExpression () {
+  $("#result").html('invalid expression');
+  $("#result").css('font-size', '1rem');
+  $("#result").css('color', '#c11935');
+};
+function invExpressionClear () {
+  $("#result").css('font-size','');
+  $("#result").css('color', '');
+};
+// -------------------------------------
 
-
-// MY COLOR VERSIONS ON:
+// MY COLOR VERSION DEFINITION FUNCTION:
 
 $("#moreFun").click(function () {
 
@@ -108,7 +121,7 @@ $("#moreFun").click(function () {
 
 });
 
-// COLOR VERSIONS CLEANUP:
+// COLOR VERSIONS REMOVE & BACK TO CLASSIC SCHEME:
 
 $("#lessFun").click(function () {
 
