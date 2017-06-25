@@ -1,6 +1,22 @@
+$(document).ready(function() {
+
+  // function mouseIn() {
+  //   $('.newProverb').css('font-size', '3rem');
+  // };
+  // function mouseOut() {
+  //   $('.newProverb').css('font-size', '');
+  // };
+  //
+  // $('.newProverb').mouseenter(mouseIn).mouseleave(mouseOut);
+
+  getProverb();
+});
+
+
+//on click
 function getProverb() {
 
-$(document).ready(function() {
+  $(document).ready(function() {
     $.ajax({
         url: "https://eda-te-reo.herokuapp.com/api/proverbs"
     }).then(function(data) {
@@ -8,15 +24,15 @@ $(document).ready(function() {
      $('.pSource').html(data.source);
      $('.pTranslation').html(data.translation);
 
-    //  random background color:
+     //  random background color:
      var newColor = pickRandomColor();
      $("body").css("background-color",newColor);
      $(".pSource").css("color",newColor);
     // -------
     });
-});
+  });
 
-}
+};
 
 
 //  random background color function:

@@ -3,40 +3,40 @@ body {
   text-align: center;
 }
 .texts {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: auto;
-  padding: 20px;
-  box-sizing: border-box;
-  width: 80%;
-  margin-top: 2rem;
   background-color: white;
+  position: relative;
+  /*width: 100%;*/
+  max-width: 85%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
   box-shadow: 20px 20px 30px rgba(0,0,0,0.28);
 }
 .newProverb {
   box-shadow: 1px 1px 5px rgba(173,216,230,0.18);
-}
-.buttonActions {
-}
-input {
   position: relative;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 .pSource {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 4rem;
   color: black;
 }
 .pTranslation {
-  font-size: 1.8rem;
+  font-size: 3rem;
 }
 .goHome {
   margin-top: 10%;
 }
+img {
+    width: 30px;
+}
 
-@media (min-width: 700px) {
+
+@media (min-width: 1024px) {
   .pSource {
-    font-size: : 1.7rem;
+    font-size: 2rem;
     }
   .pTranslation {
     font-size: 1.4rem;
