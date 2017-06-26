@@ -1,3 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8% 0 8%;
+}
+
 #dot {
   width: 15px;
   height: 15px;
@@ -7,7 +14,6 @@
   margin: 0;
   padding: 0;
 }
-
 svg {
   width: 100%;
 }
@@ -25,13 +31,14 @@ body {
   font-variant: small-caps;
 }
 .title {
-  font-size: 5rem;
+  font-size: 200%;
 }
 .bookSignature {
   font-size: 80%;
   margin: 0% 0% 3% 0;
   color: #444c5c;
 }
+.brown {color: black;}
 .brown {color: #947345;}
 .lazur {color: #b8d3d3;}
 .lazur2 {color: #758787;}
@@ -53,7 +60,10 @@ width: auto;
 /* footer
 ––––––––––––––––––––––––––––––––––––––– */
 footer {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 .FooterBox {
   border: 5px solid #2F2F31;
