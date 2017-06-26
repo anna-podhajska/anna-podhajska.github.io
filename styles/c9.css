@@ -1,0 +1,109 @@
+#dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ce5a57;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  width: 100%;
+}
+/* Shared
+–––––––––––––––––––––––––––––––––––– */
+body {
+  text-align: center;
+}
+.quote {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.small-caps {
+  font-variant: small-caps;
+}
+.title {
+  font-size: 6rem;
+}
+.bookSignature {
+  font-size: 80%;
+  margin: 0% 0% 3% 0;
+  color: #444c5c;
+}
+.brown {color: #947345;}
+.lazur {color: #b8d3d3;}
+.lazur2 {color: #758787;}
+.red { color: #ce5a57}
+.big { font-size: 10rem;}
+.smaller { font-size: 90%}
+/* hellboy
+–––––––––––––––––––––––––––––––––––––– */
+.hellboy {}
+
+/* Images
+––––––––––––––––––––––––––––––––––––– */
+
+header {
+text-align: center;
+width: auto;
+}
+
+/* footer
+––––––––––––––––––––––––––––––––––––––– */
+footer {
+  text-align: center;
+}
+.FooterBox {
+  border: 5px solid #2F2F31;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #2F2F31;
+  min-height: 10%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.FooterBox a {
+  text-decoration: none;
+  color: #ce5a57;
+  line-height: 3.6;
+}
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .FooterBox a {
+    line-height: 1.6;
+  }
+}
+
+
+  /*my colors reference
+  rgba(255, 0, 0, 0.4)
+  #ce5a57
+  #57a5a3
+  #e1b16a
+  #777c76
+  #444c5c
+  #839aa4*/
+  /*
+  "#333333",
+  "#444444",
+  "#666666",
+  "#888888",
+  "#999999",
+  "#222222",
+  "#181818",
+  "#ce5a57",
+  "#57a5a3",
+  "#e1b16a",
+  "#777c76",
+  "#444c5c",
+  "#839aa4"*/
