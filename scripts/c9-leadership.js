@@ -3,9 +3,13 @@ $(document).ready(openAnswers);
 	function openAnswers() {
 		$(".question").click(function() {
 			$(this).next().show();
+			$(this).next().addClass("pushDown");
+			$(this).addClass("pushUp");
 		});
+
 		$(".answer").click(function() {
 			$(this).css("display", "none");
+			$(".question").removeClass("pushUp");
 		});
 	};
 
