@@ -44,6 +44,9 @@ a:hover{
   color: #706d78;
   font-size: 1.6rem;
 }
+.navMenu .red{
+  color: #a31930;
+}
 /*h3::first-letter{
   color: #e2e0cf;
 }*/
@@ -67,15 +70,17 @@ footer {
   min-height: 10%;
   padding-bottom: 0;
   margin-bottom: 0;
-}
-.a-backTop {
-  font-size: 0.9rem;
-  color: #a31930;
-  text-align: left;
+  line-height: 4rem;
 }
 .backTop {
+  display: flex;
+  flex-direction: column;
   margin: 2rem 0;
-  padding-left: 11%;
+  /*padding-left: 11%;*/
+}
+.a-backTop {
+  font-size: 1.2rem;
+  color: #a31930;
 }
 /*navi end*/
 .Mycontainer {
@@ -113,6 +118,10 @@ footer {
     margin-top: 2rem;
     padding-left: 5%
   }
+  .a-backTop {
+    font-size: 1.2rem;
+    text-align: left;
+  }
 }
 
 /* Larger than desktop */
@@ -134,4 +143,9 @@ footer {
 @media (min-width: 1120px) {
   .Hellboy {
     max-width: 30%;
+  }
+  .rights {
+    display: none;
+  }
+
   }
