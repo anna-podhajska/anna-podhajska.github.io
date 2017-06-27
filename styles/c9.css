@@ -4,7 +4,6 @@
   justify-content: center;
   padding: 0 8% 0 8%;
 }
-
 #dot {
   width: 15px;
   height: 15px;
@@ -14,18 +13,23 @@
   margin: 0;
   padding: 0;
 }
-svg {
-  width: 100%;
-}
+
 /* Shared
 –––––––––––––––––––––––––––––––––––– */
 body {
   text-align: center;
 }
+
+.question:hover {
+  color: #ce5a57;
+}
 .quote {
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 120%;
+}
+#a1, #a2, #a3, #a4, #a5, #a6 {
+  display: none;
 }
 .small-caps {
   font-variant: small-caps;
@@ -51,10 +55,8 @@ body {
 
 /* Images
 ––––––––––––––––––––––––––––––––––––– */
-
-header {
-text-align: center;
-width: auto;
+svg {
+  width: 100%;
 }
 
 /* footer

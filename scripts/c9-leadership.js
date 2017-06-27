@@ -1,5 +1,15 @@
-//PLAYING WITH D3  : -)
+$(document).ready(openAnswers);
 
+	function openAnswers() {
+		$(".question").click(function() {
+			$(this).next().show();
+		});
+		$(".answer").click(function() {
+			$(this).css("display", "none");
+		});
+	};
+
+//PLAYING WITH D3:
 
 var grid = d3.select("#grid")
 	.append("svg")
