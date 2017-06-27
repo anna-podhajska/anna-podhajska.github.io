@@ -1,0 +1,31 @@
+
+p {
+  margin-bottom: 5%;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #2F2F31;
+}
+/* footer
+––––––––––––––––––––––––––––––––––––––– */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.FooterBox {
+  border: 5px solid #2F2F31;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #2F2F31;
+  min-height: 10%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.FooterBox a {
+  text-decoration: none;
+  color: #ce5a57;
+  line-height: 3.6;
+}
