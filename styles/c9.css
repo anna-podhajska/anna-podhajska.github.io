@@ -37,6 +37,20 @@ body {
 
 .pushUp {margin-top: 8%;}
 .pushDown {margin-bottom: 8%}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+}
+#seeBiggerBoard {
+  text-decoration: none;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 90%;
+  color: #b8e0e0;
+  position: relative;
+  text-align: left;
+  margin-left: 2rem;
+}
 /* hellboy
 –––––––––––––––––––––––––––––––––––––– */
 .hellboy {}
