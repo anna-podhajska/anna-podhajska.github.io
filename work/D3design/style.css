@@ -30,11 +30,13 @@ a {
 #paintRed {
   background-color: #d36461;
 }
-#instruction2 {
-  margin-bottom: 0;
+#instruction1 {
+  margin-bottom: 1rem;;
 }
 #instruction2 {
   margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
   padding-top: 0;
 }
 /* footer
