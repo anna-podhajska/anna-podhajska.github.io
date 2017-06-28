@@ -11,7 +11,7 @@ body {
   display: none;
 }
 .question:hover { color: #ce5a57;}
-.answer:hover { color: #758787}
+.answer:hover { color: #b8d3d3}
 
 .quote {
   font-family: 'Shadows Into Light', cursive;
@@ -46,7 +46,7 @@ body {
   text-decoration: none;
   font-family: 'Shadows Into Light', cursive;
   font-size: 90%;
-  color: #b8e0e0;
+  color: #758787;
   position: relative;
   text-align: left;
   margin-left: 2rem;
