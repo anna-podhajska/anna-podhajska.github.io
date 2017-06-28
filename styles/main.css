@@ -179,6 +179,9 @@ footer a {
   display: table-row;
   height: 1px;
 }
+.pushUp {
+  margin-top: 8%;
+}
 /*______blog FOOTERS*/
 .blogFooter {
   background-color: none;

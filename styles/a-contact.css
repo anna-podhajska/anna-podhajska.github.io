@@ -28,13 +28,6 @@ body {
 .red {
   color: #ce5a57;
 }
-.resourceLinks a {
-  text-decoration: none;
-  color: #947345;
-}
-.resourceLinks a:hover {
-  color: #ce5a57
-}
 .big {
   font-size: 10rem;
 }
@@ -42,10 +35,14 @@ body {
   margin-top: 10%;
 }
 .pushDown {
-  margin-top: 5%;
+  margin-bottom: 10%;
 }
 .contactLinks {
   text-decoration: none;
+}
+.contactLinks a {
+  text-decoration: none;
+  padding-right: 1rem;
 }
 /* hellboy
 –––––––––––––––––––––––––––––––––––––– */
