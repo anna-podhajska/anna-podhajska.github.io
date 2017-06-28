@@ -4,6 +4,10 @@
 body {
   text-align: center;
 }
+a {
+  text-decoration: none;
+  color: #947345;
+}
 .quote {
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
