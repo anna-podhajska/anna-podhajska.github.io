@@ -97,7 +97,6 @@ footer {
   box-shadow: 2px 2px 3px rgba(0,0,0,0.28);
 }
 
-/* Larger than mobile */
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -144,8 +143,8 @@ footer {
   .Hellboy {
     max-width: 30%;
   }
-  .rights {
+  /*.rights {
     display: none;
-  }
+  }*/
 
   }
