@@ -4,6 +4,9 @@
 .button {
   border-radius: 100px;
 }
+h5, p {
+  padding: 1rem;
+}
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -103,7 +106,7 @@ footer {
     color: black;
   }
   .h5-hero-three {
-    margin-top: -2rem;
+    margin-top: 0rem;
     padding-top: 5rem;
   }
   /*.c4-footer {
@@ -129,7 +132,7 @@ footer {
   }
   .hero-one {
     background-color: #839aa4;
-    margin-top: 0rem;
+    margin-top: 0;
     padding-top: 0;
     padding-bottom: 0;
   }

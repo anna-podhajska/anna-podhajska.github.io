@@ -1,0 +1,72 @@
+body {
+  background-color: #BBBCB8;
+}
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h3, h5 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+  text-align: center;
+}
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero-heading {
+  color: black;
+  margin-top: 3rem;
+}
+
+.hero-one, .hero-two {
+  color: black;
+  margin-top: 2.5rem;
+  height: auto;
+  padding: 1rem;
+}
+.hero-one {
+  background-color: #BEF9ED
+}
+.hero-two {
+  background-color: #FEC3CB;
+}
+.hero-one:hover {
+  width: 100%;
+}
+/* footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ .footerlinks {
+   text-decoration: none;
+   color: black;
+ }
+
+footer {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/*more than 550*/
+@media (min-width: 550px) {
+
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+}
+
+
+
+  /*colors used
+  #ce5a57
+  #57a5a3
+  #e1b16a
+  #444c5c
+  #839aa4*/
