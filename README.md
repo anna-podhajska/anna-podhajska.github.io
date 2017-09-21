@@ -1,3 +1,3 @@
 # anna-podhajska.github.io
-Ania's blog:
+Visit the page here:
 https://anna-podhajska.github.io
