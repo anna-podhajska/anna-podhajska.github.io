@@ -1,0 +1,294 @@
+html, body {
+  height: 100%;
+}
+hr {
+  margin: 1rem 0 1rem 0;
+}
+nav .mobileIndex {
+  display: none;
+  background-color: black;
+  color: white;
+}
+code a {
+  color: #57a5a3;
+}
+.Hulk p {
+  text-align: justify;
+}
+/*___________________________________header */
+header {
+  background-color: black;
+  margin-bottom: 3%;
+}
+header ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+header li {
+  margin-bottom: 0;
+}
+header a {
+  text-decoration: none;
+  float: none;
+  color: white;
+  font-size: 1em;
+  padding-right: 4em;
+}
+a p { /*index blogs section description*/
+  text-align: justify;
+}
+img {
+  width: 100%;
+}
+.headerIcon img {
+  height: 40px;
+  margin-top: 0.5rem;
+}
+/*______________________________________*/
+.button {
+  border-radius: 100px;
+}
+.highlight {
+  font-style: italic;
+  padding: 2rem;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0 0 #aaa;
+}
+.Hellboy {
+padding: 0;
+}
+.indexBlogLink {
+  text-decoration: none;
+  color: black;
+}
+.backTop {
+  align-items: center;
+}
+.backTop a {
+  font-size: 1rem;
+  display: inline;
+}
+.LinknoStyle a {
+  text-decoration: none;
+  color: #57a5a3;
+}
+.tag {
+  font-size: 0.7rem;
+  text-align: right;
+}
+.ul_in_text {
+  list-style-type: disc;
+  padding-left: 2em;
+}
+.indexBlogImg {
+  min-width: 100px;
+  max-width: 120%;
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+/*.centered {
+  text-align: center;
+}*/
+
+/*_____________top ANCHOR MENU on indexBlogsList*/
+
+.anchor_nav_menus {
+  display: none;
+}
+.anchorMenu {
+  /*top: 1;*/
+  margin-top: 4rem;
+  width: 11%;
+  position: fixed;
+  box-shadow: 7px 7px 5px 0px rgba(200, 200, 200, 0.75);
+}
+.navMenu {
+  /*top: 0;*/
+  width: 11%;
+  position: fixed;
+  box-shadow: 7px 7px 5px 0px rgba(200, 200, 200, 0.75);
+}
+
+.anchorMenu a,
+.navMenu a {
+  float: left;
+  text-decoration: none;
+  color: gray;
+  padding-left: 1rem;
+  font-variant: small-caps;
+}
+
+/*_____________________FOOTERS INDEX*/
+.indexFooter {
+  margin: 40px 0 0 0;
+  background-color: none;
+  text-align: center;
+  height: 2rem;
+}
+.indexFooter a {
+  color: black;
+}
+footer a {
+  text-decoration: none;
+  float: none;
+  color: white;
+  font-size: 0.8em;
+}
+.footerIcon img  {
+  height: 30px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  }
+.empty {
+  height: 3rem;
+}
+
+/*__________________________FIRST BLOGS STYLE*/
+/*___newer blogs have own css*/
+
+.blogHeader {
+  background-color: black;
+}
+.blogHeader ul {
+  padding-top: 2rem;
+  margin-top: 0;
+  margin-bottom: o;
+}
+.blogHeader a {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.Hulk {
+  margin-top: 3%;
+}
+.azalie {
+  margin-bottom: 0;
+  padding-bottom: 0
+}
+.wireframePic {
+  width: 300px;
+  padding: 1rem;
+}
+.imgBlogMeditation {
+  height: 150px;
+}
+.table-container {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.table-block {
+  display: table-row;
+  height: 1px;
+}
+.pushUp {
+  margin-top: 8%;
+}
+/*______blog FOOTERS*/
+.blogFooter {
+  background-color: none;
+  text-align: center;
+  margin-top: 25%;
+}
+#footerParrotLink {
+  margin: 0;
+}
+.blogFooter a {
+  text-decoration: none;
+  color: black;
+  margin-right: 2rem
+}
+.blogFooter ul {
+  list-style-type: none;
+}
+.blogFooter img {
+  height: 40px;
+}
+.footer-push {
+  height: auto;
+}
+/*_________________*/
+
+
+
+/*_________CONTACT details page style ---------*/
+
+.card {
+    box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.contact-container {
+    padding: 0 16px;
+}
+.contact-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    /*background-color:;*/
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.contact-button a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #1eaedb;
+  padding-bottom: 0;
+}
+.contact-button:hover, a:hover {
+    opacity: 0.7;
+}
+.contact-title {
+    color: grey;
+    font-size: 18px;
+}
+.img-contact {
+  width: 50%;
+}
+
+/*------------------------------------------------*/
+
+
+  /*_____TABLE in blog style_______________*/
+  th, td {
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+  table {
+    width: 100%;
+  }
+  td, tr {
+    padding: 1px;
+    margin: 1px;
+  }
+  th {
+    color: #57a5a3;
+  }
+  /*______end of the table style____ */
+
+@media (max-width: 550px) {
+  nav ul     { display: none; }
+  nav .mobileIndex { display: inline-block; }
+}
+@media (min-width: 550px) {
+  .indexBlogImg {
+    max-width: 380px;
+    padding: 0;
+    margin: 4rem 0 0 -1rem;
+  }
+}
+@media (min-width: 1300px) {
+.anchor_nav_menus {
+  display: block;
+}
+  /*______________________________ scolors used
+  #ce5a57
+  #57a5a3
+  #e1b16a
+  #444c5c*/
