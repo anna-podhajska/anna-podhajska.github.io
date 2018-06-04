@@ -37,8 +37,10 @@ header a {
 a p { /*index blogs section description*/
   text-align: justify;
 }
-img {
+.demoImg {
   width: 100%;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 .headerIcon img {
   height: 40px;
@@ -203,7 +205,7 @@ footer a {
   list-style-type: none;
 }
 .blogFooter img {
-  height: 40px;
+  height: 20px;
 }
 .footer-push {
   height: auto;
